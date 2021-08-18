@@ -11,12 +11,11 @@ Hendrycks, Dan and Gimpel, Kevin
 > Correctly classified examples tend to have greater maximum softmax probabilities than erroneously classified and out-of-distribution examples, allowing for their detection.
 > </p>
 > </details>
----
 
 
 ### 5.1.1 Confidence Calibration
 
-#### Post-hoc Calibration
+#### - Post-hoc Calibration
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
 Hendrycks, Dan and Gimpel, Kevin
@@ -27,7 +26,9 @@ Hendrycks, Dan and Gimpel, Kevin
 > </p>
 > </details>
 
-#### Bayesian Methods
+---
+
+#### - Bayesian Methods
 **[ODIN-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
 Hendrycks, Dan and Gimpel, Kevin
@@ -38,17 +39,6 @@ Hendrycks, Dan and Gimpel, Kevin
 > </p>
 > </details>
 
-**[ODIN-2017]**
-[A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
-Hendrycks, Dan and Gimpel, Kevin
-> <details>
-> <summary> The starting point of OOD detection. It uses softmax probabilities.</summary>
-> <p class="small" style="text-align:left">
-> Correctly classified examples tend to have greater maximum softmax probabilities than erroneously classified and out-of-distribution examples, allowing for their detection.
-> </p>
-> </details>
-
-#### Other Confidence Enhancement Methods
 **[ODIN-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
 Hendrycks, Dan and Gimpel, Kevin
@@ -61,19 +51,27 @@ Hendrycks, Dan and Gimpel, Kevin
 
 ---
 
-
-
+#### - Other Confidence Enhancement Methods
+**[ODIN-2017]**
+[A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
+Hendrycks, Dan and Gimpel, Kevin
+> <details>
+> <summary> The starting point of OOD detection. It uses softmax probabilities.</summary>
+> <p class="small" style="text-align:left">
+> Correctly classified examples tend to have greater maximum softmax probabilities than erroneously classified and out-of-distribution examples, allowing for their detection.
+> </p>
+> </details>
 
 ### 5.1.2 Outlier Exposure
 
 
 
 
+### 5.1.3 OOD Data Generation
 
 
----
 
-## Label Space Redesign
+### 5.1.4 Label Space Redesign
 
 **[arXiv-2021]** 
 [Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004).
@@ -106,13 +104,26 @@ Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and L
   <summary>  </summary>
   
 </details>
----
 
 
-## Big Pretrained Model
+### 5.1.5 Big Pretrained Model
 
 
----
+## 5.2 Density-based Method
+### 5.2.1 Embedding-based Method
 
 
+### 5.2.2 Flow-based Method
+
+
+### 5.2.3 Energy-based Method
+
+
+## 5.3 Distance-based Method
+
+
+## 5.4 Meta-Learning-based Method
+
+
+## 5.5 Hybrid Method and Discussion
 
