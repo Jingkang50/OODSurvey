@@ -4,7 +4,8 @@
 ### 5.1.0 Baseline
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
-Hendrycks, Dan and Gimpel, Kevin
+
+Authors: Hendrycks, Dan and Gimpel, Kevin
 > <details>
 > <summary> The starting point that simply uses softmax probabilities for OOD detection.</summary>
 > <p style="text-align:left">
@@ -17,7 +18,8 @@ Hendrycks, Dan and Gimpel, Kevin
 #### 5.1.1.1 Post-hoc Calibration
 **[ICLR-2018]**
 [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](https://github.com/facebookresearch/odin).
-Liang, Shiyu and Li, Yixuan and Srikant, R.
+
+Authors: Liang, Shiyu and Li, Yixuan and Srikant, R.
 > <details>
 > <summary> Using temperature scaling on softmax probabilities with small perturbations for robustness.</summary>
 > <p style="text-align:left">
@@ -29,7 +31,8 @@ Liang, Shiyu and Li, Yixuan and Srikant, R.
 #### 5.1.1.2 Bayesian Methods
 **[ICML-2016]**
 [Dropout as a bayesian approximation: Representing model uncertainty in deep learning](https://arxiv.org/abs/1506.02142).
-Gal, Yarin and Ghahramani, Zoubin
+
+Authors: Gal, Yarin and Ghahramani, Zoubin
 > <details>
 > <summary>Dropout training as approximate Bayesian inference in deep Gaussian processes.</summary>
 > <p style="text-align:left">
@@ -39,7 +42,8 @@ Gal, Yarin and Ghahramani, Zoubin
 
 **[NeurIPS-2017]**
 [Simple and scalable predictive uncertainty estimation using deep ensembles](https://arxiv.org/abs/1612.01474).
-Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles
+
+Authors: Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles
 > <details>
 > <summary>Ensemble training as an alternative to Bayesian NNs for high-quality predictive uncertainty estimate.</summary>
 > <p style="text-align:left">
@@ -50,8 +54,9 @@ methods on a series of classification and regression benchmark datasets.
 
 
 **[ICML-2020]**
-[How good is the bayes posterior in deep neural networks really?](???).
-Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowski, Jakub and Tran, Linh and Mandt, Stephan and Snoek, Jasper and Salimans, Tim and Jenatton, Rodolphe and Nowozin, Sebastian
+[How good is the bayes posterior in deep neural networks really?](???)
+
+Authors: Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowski, Jakub and Tran, Linh and Mandt, Stephan and Snoek, Jasper and Salimans, Tim and Jenatton, Rodolphe and Nowozin, Sebastian
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -62,7 +67,8 @@ Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowsk
 
 **[NeurIPS-2019]**
 [Practical deep learning with Bayesian principles](???).
-Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz
+
+Authors: Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -73,7 +79,8 @@ Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and
 
 **[ICML-2020]**
 [Bayesian deep learning and a probabilistic perspective of generalization](???).
-Wilson, Andrew Gordon and Izmailov, Pavel
+
+Authors: Wilson, Andrew Gordon and Izmailov, Pavel
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -85,7 +92,8 @@ Wilson, Andrew Gordon and Izmailov, Pavel
 
 **[ICMLW-2020]**
 ['In-Between' Uncertainty in Bayesian Neural Networks](???).
-Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Turner, Richard E
+
+Authors: Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Turner, Richard E
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -98,7 +106,8 @@ Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and 
 
 **[arXiv-2018]**
 [Learning confidence for out-of-distribution detection in neural networks](???).
-DeVries, Terrance and Taylor, Graham W
+
+Authors: DeVries, Terrance and Taylor, Graham W
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -109,7 +118,8 @@ DeVries, Terrance and Taylor, Graham W
 
 **[CVPR-2019]**
 [Why relu networks yield high-confidence predictions far away from the training data and how to mitigate the problem](???).
-Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian
+
+Authors: Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -120,7 +130,8 @@ Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian
 
 **[NeurIPS-2020]**
 [Certifiably adversarially robust detection of out-of-distribution data](???).
-Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias
+
+Authors: Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -131,7 +142,8 @@ Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias
 
 **[NeurIPS-2019]**
 [On mixup training: Improved calibration and predictive uncertainty for deep neural networks](???).
-Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah
+
+Authors: Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -142,7 +154,8 @@ Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, 
 
 **[arXiv-2019]**
 [Towards neural networks that provably know when they don't know](???).
-Meinke, Alexander and Hein, Matthias
+
+Authors: Meinke, Alexander and Hein, Matthias
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -154,7 +167,8 @@ Meinke, Alexander and Hein, Matthias
 
 **[ECCV-2018]**
 [Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers](https://arxiv.org/abs/1809.03576)
-Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul, Bharat and Willke, Theodore L.
+
+Authors: Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul, Bharat and Willke, Theodore L.
 > <details>
 > <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
 > <p class="small" style="text-align:left">
@@ -165,7 +179,8 @@ Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul,
 
 **[arXiv-2020]**
 [Robust out-of-distribution detection for neural networks](???).
-Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
+
+Authors: Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -176,7 +191,8 @@ Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
 
 **[CVPR-2021]**
 [MOOD: Multi-level Out-of-distribution Detection](???).
-Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
+
+Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -189,7 +205,8 @@ Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 
 **[NeurIPS-2018]**
 [Reducing network agnostophobia](https://arxiv.org/abs/1811.04110).
-Dhamija, Akshay Raj and G{\"u}nther, Manuel and Boult, Terrance E
+
+Authors: Dhamija, Akshay Raj and G{\"u}nther, Manuel and Boult, Terrance E
 > <details>
 > <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
 > <p class="small" style="text-align:left">
@@ -200,7 +217,8 @@ Dhamija, Akshay Raj and G{\"u}nther, Manuel and Boult, Terrance E
 
 **[NeurIPS-2018]**
 [Deep anomaly detection with outlier exposure](https://arxiv.org/abs/1610.02136).
-Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas
+
+Authors: Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas
 > <details>
 > <summary>A model to produce a uniform posterior distribution on auxiliary dataset of outliers.</summary>
 > <p class="small" style="text-align:left">
@@ -211,7 +229,8 @@ Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas
 
 **[ICCV-2019]**
 [Unsupervised out-of-distribution detection by maximum classifier discrepancy](https://arxiv.org/abs/1908.04951).
-Yu, Qing and Aizawa, Kiyoharu
+
+Authors: Yu, Qing and Aizawa, Kiyoharu
 > <details>
 > <summary>Two-branch network to enlarge entropy discrepancy between two branches when encountering OOD training data.</summary>
 > <p class="small" style="text-align:left">
@@ -221,67 +240,80 @@ Yu, Qing and Aizawa, Kiyoharu
 
 **[AAAI-2020]**
 [Self-supervised learning for generalizable out-of-distribution detection](?)
-Mohseni, Sina and Pitale, Mandar and Yadawa, JBS and Wang, Zhangyang
+
+Authors: Mohseni, Sina and Pitale, Mandar and Yadawa, JBS and Wang, Zhangyang
 
 
 **[Neurocomputing-2021]**
 [Outlier exposure with confidence control for out-of-distribution detection](?)
-Papadopoulos, Aristotelis-Angelos and Rajati, Mohammad Reza and Shaikh, Nazim and Wang, Jiamian
+
+Authors: Papadopoulos, Aristotelis-Angelos and Rajati, Mohammad Reza and Shaikh, Nazim and Wang, Jiamian
 
 
 ### 5.1.3 OOD Data Generation
 
 **[ICLR-2018]**
 [Training confidence-calibrated classifiers for detecting out-of-distribution samples](??)
-Lee, Kimin and Lee, Honglak and Lee, Kibok and Shin, Jinwoo
+
+Authors: Lee, Kimin and Lee, Honglak and Lee, Kibok and Shin, Jinwoo
 
 **[NeurIPSW-2018]**
 [Building robust classifiers through generation of confident out of distribution examples](?)
-Sricharan, Kumar and Srivastava, Ashok
+
+Authors: Sricharan, Kumar and Srivastava, Ashok
 
 **[CVPR-2019]**
 [Out-of-distribution detection for generalized zero-shot action recognition](?)
-Mandal, Devraj and Narayan, Sanath and Dwivedi, Sai Kumar and Gupta, Vikram and Ahmed, Shuaib and Khan, Fahad Shahbaz and Shao, Ling
+
+Authors: Mandal, Devraj and Narayan, Sanath and Dwivedi, Sai Kumar and Gupta, Vikram and Ahmed, Shuaib and Khan, Fahad Shahbaz and Shao, Ling
 
 **[NeurIPSW-2019]**
 [Out-of-distribution detection in classifiers via generation]()
-Vernekar, Sachin and Gaurav, Ashish and Abdelzad, Vahdat and Denouden, Taylor and Salay, Rick and Czarnecki, Krzysztof
+
+Authors: Vernekar, Sachin and Gaurav, Ashish and Abdelzad, Vahdat and Denouden, Taylor and Salay, Rick and Czarnecki, Krzysztof
 
 
 ### 5.1.4 Label Space Redesign
 
 **[arXiv-2021]** 
 [Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004).
-Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji.
+
+Authors: Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji.
 
 
 **[CVPR-2021]**
 [MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space](https://arxiv.org/abs/2105.01879).
-Huang, Rui and Li, Yixuan.
+
+Authors: Huang, Rui and Li, Yixuan.
 
 
 **[NeurIPS-2018]**
 [Out-of-Distribution Detection using Multiple Semantic Label Representations](https://arxiv.org/abs/1808.06664). 
-Shalev, Gabi and Adi, Yossi and Keshet, Joseph.
+
+Authors: Shalev, Gabi and Adi, Yossi and Keshet, Joseph.
 
 
 **[CVPR-2018]**
 [Hierarchical Novelty Detection for Visual Object Recognition](https://arxiv.org/abs/1804.00722). 
-Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and Lee, Honglak.
+
+Authors: Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and Lee, Honglak.
 
 
 ### 5.1.5 Big Pretrained Model
 **[arXiv-2021]**
 [Exploring the Limits of Out-of-Distribution Detection](??)
-Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji
+
+Authors: Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji
 
 **[arXiv-2020]**
 [Pretrained transformers improve out-of-distribution robustness](??)
-Hendrycks, Dan and Liu, Xiaoyuan and Wallace, Eric and Dziedzic, Adam and Krishnan, Rishabh and Song, Dawn
+
+Authors: Hendrycks, Dan and Liu, Xiaoyuan and Wallace, Eric and Dziedzic, Adam and Krishnan, Rishabh and Song, Dawn
 
 **[arXiv-2021]**
 [OODformer: Out-Of-Distribution Detection Transformer](??)
-Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann, Stephan and Tresp, Volker
+
+Authors: Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann, Stephan and Tresp, Volker
 
 
 ## 5.2 Density-based Method
@@ -289,71 +321,86 @@ Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann,
 
 **[NeurIPS-2018]**
 [A simple unified framework for detecting out-of-distribution samples and adversarial attacks](??)
-Lee, Kimin and Lee, Kibok and Lee, Honglak and Shin, Jinwoo
+
+Authors: Lee, Kimin and Lee, Kibok and Lee, Honglak and Shin, Jinwoo
 
 **[NeurIPS-2019]**
 [Likelihood ratios for out-of-distribution detection](??)
-Ren, Jie and Liu, Peter J and Fertig, Emily and Snoek, Jasper and Poplin, Ryan and DePristo, Mark A and Dillon, Joshua V and Lakshminarayanan, Balaji
+
+Authors: Ren, Jie and Liu, Peter J and Fertig, Emily and Snoek, Jasper and Poplin, Ryan and DePristo, Mark A and Dillon, Joshua V and Lakshminarayanan, Balaji
 
 **[NeurIPS-2019]**
 [Further analysis of outlier detection with deep generative models](?)
-Wang, Ziyu and Dai, Bin and Wipf, David and Zhu, Jun
+
+Authors: Wang, Ziyu and Dai, Bin and Wipf, David and Zhu, Jun
 
 **[NeurIPS-2020]**
 [Likelihood regret: An out-of-distribution detection score for variational auto-encoder](?)
-Xiao, Zhisheng and Yan, Qing and Amit, Yali
+
+Authors: Xiao, Zhisheng and Yan, Qing and Amit, Yali
 
 **[NeurIPS-2018]**
 [Do deep generative models know what they don't know?](?)
-Nalisnick, Eric and Matsukawa, Akihiro and Teh, Yee Whye and Gorur, Dilan and Lakshminarayanan, Balaji
+
+Authors: Nalisnick, Eric and Matsukawa, Akihiro and Teh, Yee Whye and Gorur, Dilan and Lakshminarayanan, Balaji
 
 **[ICLR-2020]**
 [Novelty detection via blurring](?)
-Choi, Sungik and Chung, Sae-Young
+
+Authors: Choi, Sungik and Chung, Sae-Young
 
 **[ICLR-2020]**
 [Input complexity and out-of-distribution detection with likelihood-based generative models](?)
-Serr{\`a}, Joan and {\'A}lvarez, David and G{\'o}mez, Vicen{\c{c}} and Slizovskaia, Olga and N{\'u}{\~n}ez, Jos{\'e} F and Luque, Jordi}
+
+Authors: Serr{\`a}, Joan and {\'A}lvarez, David and G{\'o}mez, Vicen{\c{c}} and Slizovskaia, Olga and N{\'u}{\~n}ez, Jos{\'e} F and Luque, Jordi}
 
 **[arXiv-2020]**
 [Probabilistic auto-encoder]()
-B{\"o}hm, Vanessa and Seljak, Uro{\v{s}}
+
+Authors: B{\"o}hm, Vanessa and Seljak, Uro{\v{s}}
 
 **[CVPR-2021]**
 [Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder](?)
-Daniel, Tal and Tamar, Aviv
+
+Authors: Daniel, Tal and Tamar, Aviv
 
 
 ### 5.2.2 Flow-based Method
 **[CVPR-2020]**
 [Deep residual flow for out of distribution detection](?)
-Zisselman, Ev and Tamar, Aviv
+
+Authors: Zisselman, Ev and Tamar, Aviv
 
 
 **[NeurIPS-2020]**
 [Why normalizing flows fail to detect out-of-distribution data](?)
-Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
+
+Authors: Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
 
 **[NeurIPS-2020]**
 [Understanding anomaly detection with deep invertible networks through hierarchies of distributions and features](?)
-Schirrmeister, Robin Tibor and Zhou, Yuxuan and Ball, Tonio and Zhang, Dan
+
+Authors: Schirrmeister, Robin Tibor and Zhou, Yuxuan and Ball, Tonio and Zhang, Dan
 
 
 ### 5.2.3 Energy-based Method
 **[ICLR-2019]**
 [Your classifier is secretly an energy based model and you should treat it like one](?)
-Grathwohl, Will and Wang, Kuan-Chieh and Jacobsen, J{\"o}rn-Henrik and Duvenaud, David and Norouzi, Mohammad and Swersky, Kevin
+
+Authors: Grathwohl, Will and Wang, Kuan-Chieh and Jacobsen, J{\"o}rn-Henrik and Duvenaud, David and Norouzi, Mohammad and Swersky, Kevin
 
 **[NeurIPS-2020]**
 [Energy-based out-of-distribution detection](?)
-Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
+
+Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 
 
 ## 5.3 Distance-based Method
 
 **[CVPR-2021]**
 [Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://github.com/zaeemzadeh/OOD)
-Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nicola and Rahnavard, Nazanin and Shah, Mubarak
+
+Authors: Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nicola and Rahnavard, Nazanin and Shah, Mubarak
 > <details>
 > <summary> class membership probabilities in . </summary>
 > <p class="small" style="text-align:left">
@@ -364,12 +411,14 @@ Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nico
 
 **[ECCV-2020]**
 [A boundary based out-of-distribution classifier for generalized zero-shot learning](https://arxiv.org/abs/2008.04872)
-Chen, Xingyu and Lan, Xuguang and Sun, Fuchun and Zheng, Nanning.
+
+Authors: Chen, Xingyu and Lan, Xuguang and Sun, Fuchun and Zheng, Nanning.
 
 
 **[arXiv-2020]**
 [Feature Space Singularity for Out-of-Distribution Detection](https://arxiv.org/abs/2011.14654)
-Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Zhou, Xinyu
+
+Authors: Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Zhou, Xinyu
 > <details>
 > <summary> Distance to Feature Space Singularity can measure OOD.</summary>
 > <p class="small" style="text-align:left">
@@ -380,22 +429,26 @@ Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Z
 
 **[ICML-2020]**
 [Detecting out-of-distribution examples with gram matrices](?)
-Sastry, Chandramouli Shama and Oore, Sageev
+
+Authors: Sastry, Chandramouli Shama and Oore, Sageev
 
 
 **[ICML-2020]**
 [Uncertainty estimation using a single deep deterministic neural network](?)
-Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
+
+Authors: Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
 
 
 ## 5.4 Meta-Learning-based Method
 **[NeurIPS-2020]**
 [OOD-MAML: Meta-learning for few-shot out-of-distribution detection and classification](?)
-Jeong, Taewon and Kim, Heeyoung
+
+Authors: Jeong, Taewon and Kim, Heeyoung
 
 **[ICLR-2020]**
 [Learning to balance: Bayesian meta-learning for imbalanced and out-of-distribution tasks](?)
-Lee, Hae Beom and Lee, Hayeon and Na, Donghyun and Kim, Saehoon and Park, Minseop and Yang, Eunho and Hwang, Sung Ju
+
+Authors: Lee, Hae Beom and Lee, Hayeon and Na, Donghyun and Kim, Saehoon and Park, Minseop and Yang, Eunho and Hwang, Sung Ju
 
 ## 5.5 Other Methods
 
