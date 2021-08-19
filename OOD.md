@@ -1,159 +1,231 @@
 # 5. OOD Detection
-
 ## 5.1 Classfication-based Method
+---
 ### 5.1.0 Baseline
+---
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
 Hendrycks, Dan and Gimpel, Kevin
 > <details>
-> <summary> The starting point of OOD detection, using softmax probabilities.</summary>
-> <p class="small" style="text-align:left">
+> <summary> The starting point that simply uses softmax probabilities for OOD detection.</summary>
+> <p style="text-align:left">
 > Correctly classified examples tend to have greater maximum softmax probabilities than erroneously classified and out-of-distribution examples, allowing for their detection.
 > </p>
 > </details>
 
-
+---
 ### 5.1.1 Confidence Calibration
+---
 
 #### - Post-hoc Calibration
-**[ODIN-2017]**
-[A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
-Hendrycks, Dan and Gimpel, Kevin
+**[ICLR-2018]**
+[Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](https://github.com/facebookresearch/odin).
+Liang, Shiyu and Li, Yixuan and Srikant, R.
 > <details>
-> <summary> The starting point of OOD detection. It uses softmax probabilities.</summary>
-> <p class="small" style="text-align:left">
-> Correctly classified examples tend to have greater maximum softmax probabilities than erroneously classified and out-of-distribution examples, allowing for their detection.
+> <summary> Using temperature scaling on softmax probabilities with small perturbations for robustness.</summary>
+> <p style="text-align:left">
+> Temperature scaling can calibrate the softmax probabilities so the model takes the calibrated maximum softmax probabilities as the indicator for OOD detection. A perturbation on each sample at test time can further exploit the model robustness in detecting ID samples. However, it requires part of the OOD samples for hyperparameter tuning.
 > </p>
 > </details>
 
 ---
 
 #### - Bayesian Methods
+**[ICML-2016]**
+[Dropout as a bayesian approximation: Representing model uncertainty in deep learning](https://arxiv.org/abs/1506.02142).
+Gal, Yarin and Ghahramani, Zoubin
+> <details>
+> <summary>Dropout training as approximate Bayesian inference in deep Gaussian processes.</summary>
+> <p style="text-align:left">
+> This paper develops a new theoretical framework for deep uncertainty estimation without sacrificing either computational complexity or test accuracy, which is the drawbacks that often occur in deep Bayesian models.
+> </p>
+> </details>
+
+**[NeurIPS-2017]**
+[Simple and scalable predictive uncertainty estimation using deep ensembles](https://arxiv.org/abs/1612.01474).
+Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles
+> <details>
+> <summary>Ensemble training as an alternative to Bayesian NNs for high-quality predictive uncertainty estimate.</summary>
+> <p style="text-align:left">
+> First work to investigate their usefulness for predictive uncertainty estimation and compare their performance to current state-of-the-art approximate Bayesian
+methods on a series of classification and regression benchmark datasets.
+> </p>
+> </details>
 
 
-@inproceedings{mcdropout16icml,
-  title={Dropout as a bayesian approximation: Representing model uncertainty in deep learning},
-  author={Gal, Yarin and Ghahramani, Zoubin},
-  booktitle={ICML},
-  year={2016},
-}
+**[ICML-2020]**
+[How good is the bayes posterior in deep neural networks really?](???).
+Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowski, Jakub and Tran, Linh and Mandt, Stephan and Snoek, Jasper and Salimans, Tim and Jenatton, Rodolphe and Nowozin, Sebastian
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
 
-@article{deepensemble17nips,
-  title={Simple and scalable predictive uncertainty estimation using deep ensembles},
-  author={Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles},
-  journal={NeurIPS},
-  year={2017}
-}
 
-@inproceedings{howgoodbnn20icml,
-  title={How good is the bayes posterior in deep neural networks really?},
-  author={Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowski, Jakub and Tran, Linh and Mandt, Stephan and Snoek, Jasper and Salimans, Tim and Jenatton, Rodolphe and Nowozin, Sebastian},
-  booktitle={ICML},
-  year={2020}
-}
+**[NeurIPS-2019]**
+[Practical deep learning with Bayesian principles](???).
+Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
 
-@inproceedings{practicalbnn19nips,
-  title={Practical deep learning with Bayesian principles},
-  author={Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz},
-  booktitle={NeurIPS},
-  year={2019}
-}
 
-@article{bnngeneralization20icml,
-  title={Bayesian deep learning and a probabilistic perspective of generalization},
-  author={Wilson, Andrew Gordon and Izmailov, Pavel},
-  journal={ICML},
-  year={2020}
-}
+**[ICML-2020]**
+[Bayesian deep learning and a probabilistic perspective of generalization](???).
+Wilson, Andrew Gordon and Izmailov, Pavel
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
 
-@inproceedings{bayesood19nips,
-  title={Practical deep learning with Bayesian principles},
-  author={Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz},
-  booktitle={NeurIPS},
-  year={2019}
-}
 
-@inproceedings{inbwnbnn20icmlw,
-  title={'In-Between' Uncertainty in Bayesian Neural Networks},
-  author={Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Turner, Richard E},
-  booktitle={ICML-W},
-  year={2020}
-}
+
+**[ICMLW-2020]**
+['In-Between' Uncertainty in Bayesian Neural Networks](???).
+Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Turner, Richard E
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
 
 ---
 
 #### - Other Confidence Enhancement Methods
-@inproceedings{ceda19cvpr,
-  title={Why relu networks yield high-confidence predictions far away from the training data and how to mitigate the problem},
-  author={Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian},
-  booktitle={CVPR},
-  year={2019}
-}
 
-@inproceedings{good20nips,
-  title={Certifiably adversarially robust detection of out-of-distribution data},
-  author={Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias},
-  booktitle={NeurIPS},
-  year={2020}
-}
-
-@inproceedings{mixup19nips,
-  title={On mixup training: Improved calibration and predictive uncertainty for deep neural networks},
-  author={Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah},
-  booktitle={NeurIPS},
-  year={2019}
-}
-
-@article{ccu20arxiv,
-  title={Towards neural networks that provably know when they don't know},
-  author={Meinke, Alexander and Hein, Matthias},
-  journal={arXiv preprint arXiv:1909.12180},
-  year={2019}
-}
-
-@article{aloe20arxiv,
-  title={Robust out-of-distribution detection for neural networks},
-  author={Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh},
-  journal={arXiv preprint arXiv:2003.09711},
-  year={2020}
-}
-
-@inproceedings{mood21cvpr,
-  title={MOOD: Multi-level Out-of-distribution Detection},
-  author={Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan},
-  booktitle={CVPR},
-  year={2021}
-}
+**[arXiv-2018]**
+[Learning confidence for out-of-distribution detection in neural networks](???).
+DeVries, Terrance and Taylor, Graham W
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
 
 
-@article{confbranch2018arxiv,
-  title={Learning confidence for out-of-distribution detection in neural networks},
-  author={DeVries, Terrance and Taylor, Graham W},
-  journal={arXiv preprint arXiv:1802.04865},
-  year={2018}
-}
+**[CVPR-2019]**
+[Why relu networks yield high-confidence predictions far away from the training data and how to mitigate the problem](???).
+Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+**[NeurIPS-2020]**
+[Certifiably adversarially robust detection of out-of-distribution data](???).
+Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+**[NeurIPS-2019]**
+[On mixup training: Improved calibration and predictive uncertainty for deep neural networks](???).
+Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+**[arXiv-2019]**
+[Towards neural networks that provably know when they don't know](???).
+Meinke, Alexander and Hein, Matthias
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+
+**[ECCV-2018]**
+[Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers](https://arxiv.org/abs/1809.03576)
+Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul, Bharat and Willke, Theodore L.
+> <details>
+> <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
+> <p class="small" style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+**[arXiv-2020]**
+[Robust out-of-distribution detection for neural networks](???).
+Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
+**[CVPR-2021]**
+[MOOD: Multi-level Out-of-distribution Detection](???).
+Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
 
 ### 5.1.2 Outlier Exposure
-@inproceedings{agnostophobia18nips,
-  title={Reducing network agnostophobia},
-  author={Dhamija, Akshay Raj and G{\"u}nther, Manuel and Boult, Terrance E},
-  booktitle={NeurIPS},
-  year={2018}
-}
 
-@inproceedings{oe18nips,
-  title={Deep anomaly detection with outlier exposure},
-  author={Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas},
-  booktitle={NeurIPS},
-  year={2018}
-}
+**[NeurIPS-2018]**
+[Reducing network agnostophobia](https://arxiv.org/abs/1811.04110).
+Dhamija, Akshay Raj and G{\"u}nther, Manuel and Boult, Terrance E
+> <details>
+> <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
+> <p class="small" style="text-align:left">
+> The paper designs novel losses to maximize entropy for unknown inputs while increasing separation in deep feature space by modifying magnitudes of known and unknown samples. In sum, logits entropy and feature magnitudes are used for OOD detection.
+> </p>
+> </details>
 
-@inproceedings{mcd19iccv,
-  title={Unsupervised out-of-distribution detection by maximum classifier discrepancy},
-  author={Yu, Qing and Aizawa, Kiyoharu},
-  booktitle={ICCV},
-  year={2019}
-}
+
+**[NeurIPS-2018]**
+[Deep anomaly detection with outlier exposure](https://arxiv.org/abs/1610.02136).
+Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas
+> <details>
+> <summary>A model to produce a uniform posterior distribution on auxiliary dataset of outliers.</summary>
+> <p class="small" style="text-align:left">
+> It can learn effective heuristics for detecting out-of-distribution inputs by exposing the model to OOD examples, thus learning a more conservative concept of the inliers and enabling the detection of novel forms of anomalies. The result is shown effective on both CV and NLP tasks.
+> </p>
+> </details>
+
+
+**[ICCV-2019]**
+[Unsupervised out-of-distribution detection by maximum classifier discrepancy](https://arxiv.org/abs/1908.04951).
+Yu, Qing and Aizawa, Kiyoharu
+> <details>
+> <summary>Two-branch network to enlarge entropy discrepancy between two branches when encountering OOD training data.</summary>
+> <p class="small" style="text-align:left">
+> It trains a two-head CNN consisting of one common feature extractor and two classifiers which have different decision boundaries but can classify in-distribution samples correctly. Then it uses the unlabeled data to maximize the discrepancy between the decision boundaries of two classifiers to push OOD samples outside the manifold of the in-distribution samples, which enables to detect OOD samples that are far from the support of the ID samples.
+> </p>
+> </details>
+
+
+
 
 @inproceedings{pseudolabel20aaai,
   title={Self-supervised learning for generalizable out-of-distribution detection},
@@ -248,6 +320,8 @@ Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and L
 
 
 
+---
+---
 
 ## 5.2 Density-based Method
 ### 5.2.1 Embedding-based Method
@@ -354,7 +428,7 @@ Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and L
 ## 5.3 Distance-based Method
 
 **[CVPR-2021]**
-[Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces]()
+[Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://github.com/zaeemzadeh/OOD)
 Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nicola and Rahnavard, Nazanin and Shah, Mubarak
 > <details>
 > <summary> class membership probabilities in . </summary>
@@ -410,5 +484,7 @@ Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Z
   year={2020}
 }
 
-## 5.5 Hybrid Method and Discussion
+## 5.5 Other Methods
+
+Isolation forests exploits the fact that anomalies are scarce and different and while constructing the isolation tree, it is observed that the anomalous samples appear close to the root of the tree. These anomalies are then identified by measuring the length of the path from the root to a terminating node; the closer a node is to the root, the higher is its chance of representing an OOD.
 
