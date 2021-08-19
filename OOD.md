@@ -5,7 +5,9 @@
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
 
-Authors: Hendrycks, Dan and Gimpel, Kevin
+**Authors:** Hendrycks, Dan and Gimpel, Kevin
+
+**Institution:** University of California, Berkeley; Toyota Technological Institute at Chicago
 > <details>
 > <summary> The starting point that simply uses softmax probabilities for OOD detection.</summary>
 > <p style="text-align:left">
