@@ -303,6 +303,11 @@ Authors: Mohseni, Sina and Pitale, Mandar and Yadawa, JBS and Wang, Zhangyang
 
 Authors: Papadopoulos, Aristotelis-Angelos and Rajati, Mohammad Reza and Shaikh, Nazim and Wang, Jiamian
 
+<br>
+
+[Back to Top](#top)
+
+<br>
 
 <a name="5.1.3"></a>
 ### 5.1.3 OOD Data Generation
@@ -327,6 +332,12 @@ Authors: Mandal, Devraj and Narayan, Sanath and Dwivedi, Sai Kumar and Gupta, Vi
 
 Authors: Vernekar, Sachin and Gaurav, Ashish and Abdelzad, Vahdat and Denouden, Taylor and Salay, Rick and Czarnecki, Krzysztof
 
+<br>
+
+[Back to Top](#top)
+
+<br>
+
 <a name="5.1.4"></a>
 ### 5.1.4 Label Space Redesign
 
@@ -347,6 +358,11 @@ Authors: Shalev, Gabi and Adi, Yossi and Keshet, Joseph.
 
 Authors: Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and Lee, Honglak.
 
+<br>
+
+[Back to Top](#top)
+
+<br>
 
 <a name="5.1.5"></a>
 ### 5.1.5 Big Pretrained Model
@@ -421,6 +437,12 @@ Authors: B{\"o}hm, Vanessa and Seljak, Uro{\v{s}}
 
 Authors: Daniel, Tal and Tamar, Aviv
 
+<br>
+
+[Back to Top](#top)
+
+<br>
+
 <a name="5.2.2"></a>
 ### 5.2.2 Flow-based Method
 **[CVPR-2020]**
@@ -438,6 +460,12 @@ Authors: Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
 [Understanding anomaly detection with deep invertible networks through hierarchies of distributions and features](?)
 
 Authors: Schirrmeister, Robin Tibor and Zhou, Yuxuan and Ball, Tonio and Zhang, Dan
+
+<br>
+
+[Back to Top](#top)
+
+<br>
 
 <a name="5.2.3"></a>
 ### 5.2.3 Energy-based Method
