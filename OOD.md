@@ -52,9 +52,6 @@
 > </p>
 > </details>
 
-
-<br>
-
 **[CVPR-2020]**
 [Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://arxiv.org/abs/2002.11297).
 <br>
@@ -153,13 +150,15 @@ Authors: Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Mi
 #### 5.1.1.3 Other Confidence Enhancement Methods
 
 **[arXiv-2018]**
-[Learning confidence for out-of-distribution detection in neural networks](???).
-
-Authors: DeVries, Terrance and Taylor, Graham W
+[Learning confidence for out-of-distribution detection in neural networks](https://arxiv.org/abs/1802.04865).
+<br>
+**Authors:** DeVries, Terrance and Taylor, Graham W
+<br>
+**Institution:** University of Guelph; Vector Institute
 > <details>
-> <summary></summary>
+> <summary> Neural network augmented with a confidence estimation branch.</summary>
 > <p style="text-align:left">
-> 
+> During training, the predictions are modified according to the confidence of the network such that they are closer to the target probability distribution y. The gradual training procedure helps a better estimation of confidence.
 > </p>
 > </details>
 
@@ -361,6 +360,7 @@ Authors: Hendrycks, Dan and Liu, Xiaoyuan and Wallace, Eric and Dziedzic, Adam a
 
 Authors: Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann, Stephan and Tresp, Volker
 
+
 <a name="5.2"></a>
 ## 5.2 Density-based Method
 <a name="5.2.1"></a>
@@ -399,7 +399,7 @@ Authors: Choi, Sungik and Chung, Sae-Young
 **[ICLR-2020]**
 [Input complexity and out-of-distribution detection with likelihood-based generative models](?)
 
-Authors: Serr{\`a}, Joan and {\'A}lvarez, David and G{\'o}mez, Vicen{\c{c}} and Slizovskaia, Olga and N{\'u}{\~n}ez, Jos{\'e} F and Luque, Jordi}
+Authors: Serra, Joan and Alvarez, David and Gomez, Vicenc and Slizovskaia, Olga and Nunez, Jose F and Luque, Jordi}
 
 **[arXiv-2020]**
 [Probabilistic auto-encoder]()
@@ -445,13 +445,16 @@ Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 
 <a name="5.3"></a>
 ## 5.3 Distance-based Method
+
+
+
+
 **[ACCV-2020]**
 [Hyperparameter-free out-of-distribution detection using cosine similarity](https://arxiv.org/abs/1905.10628)
-
+<br>
 **Authors:** Techapanurak, Engkarat and Suganuma, Masanori and Okatani, Takayuki
-
+<br>
 **Institution:** Tohoku University; RIKEN
-
 > <details>
 > <summary> Using scaled cosine similarity between test sample features and class features to determine OOD samples. </summary>
 > <p class="small" style="text-align:left">
@@ -461,15 +464,16 @@ Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 > </details>
 
 
-
 **[CVPR-2021]**
 [Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://github.com/zaeemzadeh/OOD)
-
-Authors: Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nicola and Rahnavard, Nazanin and Shah, Mubarak
+<br>
+**Authors:** Zaeemzadeh, Alireza and Bisagno, Niccol{\`o} and Sambugaro, Zeno and Conci, Nicola and Rahnavard, Nazanin and Shah, Mubarak
+<br>
+**Institution:** University of Central Florida; University of Trento
 > <details>
-> <summary> class membership probabilities in . </summary>
+> <summary> Calculating class membership probabilities in a union of 1-dimensional subspaces.</summary>
 > <p class="small" style="text-align:left">
-> The cosine similarities between the extracted feature and the class vectors are used to compute the class membership probabilities, using a Union of 1-dimensional subspaces 
+> The cosine similarities between the extracted feature and the class vectors are used to compute the class membership probabilities, using a Union of 1-dimensional subspaces. The 1-dimensional subspaces is spanned by the first singular vector of the feature vectors extracted from the training set. Feature vectors lie on a union of 1-dimensional subspaces helps OOD samples to be robustly detected.
 > </p>
 > </details>
 
@@ -482,20 +486,16 @@ Authors: Chen, Xingyu and Lan, Xuguang and Sun, Fuchun and Zheng, Nanning.
 
 **[arXiv-2020]**
 [Feature Space Singularity for Out-of-Distribution Detection](https://arxiv.org/abs/2011.14654)
-
-Authors: Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Zhou, Xinyu
+<br>
+**Authors:** Huang, Haiwen and Li, Zhihan and Wang, Lulu and Chen, Sishuo and Dong, Bin and Zhou, Xinyu
+<br>
+**Institution:** University of Oxford; Peking University; MEGVII Technology; etc.
 > <details>
 > <summary> Distance to Feature Space Singularity can measure OOD.</summary>
 > <p class="small" style="text-align:left">
 > It is observed that in feature spaces, OOD samples concentrate near a Feature Space Singularity (FSS) point, and the distance from a sample to FSS measures the degree of OOD. It can be exlained that moving speeds of features of other data depend on their similarity to the training data. During training, they use generated uniform noise or validation data as OOD.
 > </p>
 > </details>
-
-
-**[ICML-2020]**
-[Detecting out-of-distribution examples with gram matrices](?)
-
-Authors: Sastry, Chandramouli Shama and Oore, Sageev
 
 
 **[ICML-2020]**
@@ -507,6 +507,20 @@ Authors: Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
 
 <a name="5.4"></a>
 ## 5.4 Meta-Learning-based Method
+
+**[ICML-2020]**
+[Detecting out-of-distribution examples with gram matrices](http://proceedings.mlr.press/v119/sastry20a/sastry20a.pdf)
+<br>
+**Authors:** Sastry, Chandramouli Shama and Oore, Sageev
+<br>
+**Institution:** Dalhousie University
+> <details>
+> <summary>Jointly considering the class assigned at the output layer and the activity patterns in the intermediate layers.</summary>
+> <p class="small" style="text-align:left">
+> It uses activity patterns to detect anomalies, i.e., the path by which it arrived at that prediction. Gram Matrices not only describe the activations at the individual channels but also summarize the pairwise interactions between the channels.
+> </p>
+> </details>
+
 **[NeurIPS-2020]**
 [OOD-MAML: Meta-learning for few-shot out-of-distribution detection and classification](?)
 
@@ -520,7 +534,23 @@ Authors: Lee, Hae Beom and Lee, Hayeon and Na, Donghyun and Kim, Saehoon and Par
 <br>
 
 <a name="5.5"></a>
-## 5.5 Other Methods
+## 5.5 Hybrid Method and Others
 
 Isolation forests exploits the fact that anomalies are scarce and different and while constructing the isolation tree, it is observed that the anomalous samples appear close to the root of the tree. These anomalies are then identified by measuring the length of the path from the root to a terminating node; the closer a node is to the root, the higher is its chance of representing an OOD.
 
+<br>
+
+<a name="5.5"></a>
+## 5.6 Discussion
+**[BMVC-2019]**
+[A Less Biased Evaluation of Out-of-distribution Sample Detectors](https://arxiv.org/abs/1809.04729)
+<br>
+**Author:** Shafaei, Alireza and Schmidt, Mark and Little, James J
+<br>
+**Institution:** University of British Columbia
+> <details>
+> <summary>A three-dataset evaluation scheme as a more reliable strategy to assess progress.</summary>
+> <p class="small" style="text-align:left">
+> Classic OOD detection testing may produce a biased result since the distribution of outliers used in training may not be the same as the distribution of outliers encountered in the application. An exhaustive evaluation shows realistic applications of high-dimensional images the previous techniques have low accuracy and are not reliable in practice.
+> </p>
+> </details>
