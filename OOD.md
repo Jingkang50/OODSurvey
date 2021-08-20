@@ -29,8 +29,27 @@ Authors: Liang, Shiyu and Li, Yixuan and Srikant, R.
 > </p>
 > </details>
 
+**[CVPR-2020]**
+[Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://arxiv.org/abs/2002.11297).
+
+**Authors:** Hsu, Yen-Chang and Shen, Yilin and Jin, Hongxia and Kira, Zsolt
+
+**Institution:** Georgia Institute of Technology; Samsung Research
+
+> <details>
+> <summary> Improving ODIN by decomposed confidence scoring and a modified input pre-processing method.</summary>
+> <p style="text-align:left">
+> The method find that previous work relies on the class posterior probability p(y|x), which does not consider the domain variable at all. Therefore, they use the explicit variable in the classifier, rewriting it as the quotient of the joint class-domain probability and the domain probability using the rule of conditional probability, and take the decomposed confidence scores for OOD detection. 
+The decomposed confidence in the end is the probability of an input being in-distribution, computed by the cosine similarity between sample features and class features.
+The method also modifies the input preprocessing by only optimizing in-distribution data, therefore extra OOD validation samples are not required.
+> </p>
+> </details>
+
+
 
 #### 5.1.1.2 Bayesian Methods
+The Bayesian uncertainty methods could be directly applied to reject OOD samples as we would expect the uncertainty to be high on such inputs.
+
 **[ICML-2016]**
 [Dropout as a bayesian approximation: Representing model uncertainty in deep learning](https://arxiv.org/abs/1506.02142).
 
@@ -304,8 +323,8 @@ Authors: Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jin
 ### 5.1.5 Big Pretrained Model
 **[arXiv-2021]**
 [Exploring the Limits of Out-of-Distribution Detection](??)
-
 Authors: Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji
+
 
 **[arXiv-2020]**
 [Pretrained transformers improve out-of-distribution robustness](??)
@@ -398,6 +417,22 @@ Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 
 
 ## 5.3 Distance-based Method
+**[ACCV-2020]**
+[Hyperparameter-free out-of-distribution detection using cosine similarity](https://arxiv.org/abs/1905.10628)
+
+**Authors:** Techapanurak, Engkarat and Suganuma, Masanori and Okatani, Takayuki
+
+**Institution:** Tohoku University; RIKEN
+
+> <details>
+> <summary> Using scaled cosine similarity between test sample features and class features to determine OOD samples. </summary>
+> <p class="small" style="text-align:left">
+> The first work employs softmax of scaled cosine similarity instead of ordinary softmax of logits. Taking the metric learning idea into OOD detection.
+  It is also the concurrent work of Generalized ODIN, 
+> </p>
+> </details>
+
+
 
 **[CVPR-2021]**
 [Out-of-Distribution Detection Using Union of 1-Dimensional Subspaces](https://github.com/zaeemzadeh/OOD)
