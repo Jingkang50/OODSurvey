@@ -1,5 +1,5 @@
+<a name="top"></a>
 # 5. OOD Detection
-
 - [5.1 Classfication-based Method](#5.1)
   - [5.1.0 Baseline](#5.1.0): MSP
   - [5.1.1 Confidence Calibration](#5.1.1)
@@ -90,8 +90,7 @@ Authors: Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles
 > <details>
 > <summary>Ensemble training as an alternative to Bayesian NNs for high-quality predictive uncertainty estimate.</summary>
 > <p style="text-align:left">
-> First work to investigate their usefulness for predictive uncertainty estimation and compare their performance to current state-of-the-art approximate Bayesian
-methods on a series of classification and regression benchmark datasets.
+> First work to investigate their usefulness for predictive uncertainty estimation and compare their performance to current state-of-the-art approximate Bayesian methods on a series of classification and regression benchmark datasets.
 > </p>
 > </details>
 
@@ -249,6 +248,12 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > </p>
 > </details>
 
+<br>
+
+[Back to Top](#top)
+
+<br>
+
 <a name="5.1.2"></a>
 ### 5.1.2 Outlier Exposure
 
@@ -360,6 +365,11 @@ Authors: Hendrycks, Dan and Liu, Xiaoyuan and Wallace, Eric and Dziedzic, Adam a
 
 Authors: Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann, Stephan and Tresp, Volker
 
+<br>
+
+[Back to Top](#top)
+
+<br>
 
 <a name="5.2"></a>
 ## 5.2 Density-based Method
@@ -443,10 +453,25 @@ Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 
 <br>
 
+[Back to Top](#top)
+
+<br>
+
 <a name="5.3"></a>
 ## 5.3 Distance-based Method
-
-
+**[NeurIPS-2018]**
+[A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks]()
+<br>
+**Authors:** 
+<br>
+**Institution:** 
+> <details>
+> <summary> Using scaled cosine similarity between test sample features and class features to determine OOD samples. </summary>
+> <p class="small" style="text-align:left">
+> The first work employs softmax of scaled cosine similarity instead of ordinary softmax of logits. Taking the metric learning idea into OOD detection.
+  It is also the concurrent work of Generalized ODIN, 
+> </p>
+> </details>
 
 
 **[ACCV-2020]**
@@ -500,8 +525,21 @@ Authors: Chen, Xingyu and Lan, Xuguang and Sun, Fuchun and Zheng, Nanning.
 
 **[ICML-2020]**
 [Uncertainty estimation using a single deep deterministic neural network](?)
+<br>
+**Authors:** Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
+<br>
+**Institution:** 
+> <details>
+> <summary> Distance to Feature Space Singularity can measure OOD.</summary>
+> <p class="small" style="text-align:left">
+> This method trains a feature extractor without a softmax layer. Instead, it learns a centroid per class and attracts samples towards the centroids of their class, similar to contrastive losses. It uses a Radial Basis Function (RBF) kernel to compute the distance between the input’s embedding and the class centroids. The distance to the closest centroid defines classification, and is also used as the OOD score.
+> </p>
+> </details>
 
-Authors: Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
+
+<br>
+
+[Back to Top](#top)
 
 <br>
 
@@ -533,10 +571,18 @@ Authors: Lee, Hae Beom and Lee, Hayeon and Na, Donghyun and Kim, Saehoon and Par
 
 <br>
 
+[Back to Top](#top)
+
+<br>
+
 <a name="5.5"></a>
 ## 5.5 Hybrid Method and Others
 
 Isolation forests exploits the fact that anomalies are scarce and different and while constructing the isolation tree, it is observed that the anomalous samples appear close to the root of the tree. These anomalies are then identified by measuring the length of the path from the root to a terminating node; the closer a node is to the root, the higher is its chance of representing an OOD.
+
+<br>
+
+[Back to Top](#top)
 
 <br>
 
@@ -554,3 +600,9 @@ Isolation forests exploits the fact that anomalies are scarce and different and 
 > Classic OOD detection testing may produce a biased result since the distribution of outliers used in training may not be the same as the distribution of outliers encountered in the application. An exhaustive evaluation shows realistic applications of high-dimensional images the previous techniques have low accuracy and are not reliable in practice.
 > </p>
 > </details>
+
+<br>
+
+[Back to Top](#top)
+
+<br>
