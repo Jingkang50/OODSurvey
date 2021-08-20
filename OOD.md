@@ -1,6 +1,24 @@
 # 5. OOD Detection
 
+- [5.1 Classfication-based Method](#5.1)
+  - [5.1.0 Baseline](#5.1.0): MSP
+  - [5.1.1 Confidence Calibration](#5.1.1)
+    - [5.1.1.1 Post-hoc Calibration](#5.1.1.1): ODIN; Generalized-ODIN
+    - [5.1.1.2 Bayesian Methods](#5.1.1.2): MC-Dropout; DeepEnsemble; 
+    - [5.1.1.3 Other Confidence Enhancement Methods](#5.1.1.3)
+  - [5.1.2 Outlier Explosure](#5.1.2)
+  - [5.1.3 OOD Data Generation](#5.1.3)
+  - [5.1.4 Label Space Redesign](#5.1.4)
+  - [5.1.5 Big Pretrained Model](#5.1.5)
+- [5.2 Density-based Method](#5.2)
+- [5.3 Distance-based Method](#5.3)
+- [5.4 Meta-Learning-based Method](#5.4)
+- [5.5 Hybrid Methods and Others](#5.5)
+
+
+<a name="5.1"></a>
 ## 5.1 Classfication-based Method
+<a name="5.1.0"></a>
 ### 5.1.0 Baseline
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
@@ -15,8 +33,11 @@
 > </p>
 > </details>
 
-### 5.1.1 Confidence Calibration
+<br>
 
+<a name="5.1.1"></a>
+### 5.1.1 Confidence Calibration
+<a name="5.1.1.1"></a>
 #### 5.1.1.1 Post-hoc Calibration
 **[ICLR-2018]**
 [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](https://github.com/facebookresearch/odin).
@@ -29,6 +50,8 @@ Authors: Liang, Shiyu and Li, Yixuan and Srikant, R.
 > </p>
 > </details>
 
+<br>
+
 **[CVPR-2020]**
 [Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://arxiv.org/abs/2002.11297).
 
@@ -39,14 +62,13 @@ Authors: Liang, Shiyu and Li, Yixuan and Srikant, R.
 > <details>
 > <summary> Improving ODIN by decomposed confidence scoring and a modified input pre-processing method.</summary>
 > <p style="text-align:left">
-> The method find that previous work relies on the class posterior probability p(y|x), which does not consider the domain variable at all. Therefore, they use the explicit variable in the classifier, rewriting it as the quotient of the joint class-domain probability and the domain probability using the rule of conditional probability, and take the decomposed confidence scores for OOD detection. 
-The decomposed confidence in the end is the probability of an input being in-distribution, computed by the cosine similarity between sample features and class features.
-The method also modifies the input preprocessing by only optimizing in-distribution data, therefore extra OOD validation samples are not required.
+> The method find that previous work relies on the class posterior probability p(y|x), which does not consider the domain variable at all. Therefore, they use the explicit variable in the classifier, rewriting it as the quotient of the joint class-domain probability and the domain probability using the rule of conditional probability, and take the decomposed confidence scores for OOD detection. The decomposed confidence in the end is the probability of an input being in-distribution, computed by the cosine similarity between sample features and class features. The method also modifies the input preprocessing by only optimizing in-distribution data, therefore extra OOD validation samples are not required.
 > </p>
 > </details>
 
+<br>
 
-
+<a name="5.1.1.2"></a>
 #### 5.1.1.2 Bayesian Methods
 The Bayesian uncertainty methods could be directly applied to reject OOD samples as we would expect the uncertainty to be high on such inputs.
 
@@ -122,7 +144,7 @@ Authors: Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Mi
 > </p>
 > </details>
 
-
+<a name="5.1.1.3"></a>
 #### 5.1.1.3 Other Confidence Enhancement Methods
 
 **[arXiv-2018]**
@@ -221,7 +243,7 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > </p>
 > </details>
 
-
+<a name="5.1.2"></a>
 ### 5.1.2 Outlier Exposure
 
 **[NeurIPS-2018]**
@@ -271,6 +293,7 @@ Authors: Mohseni, Sina and Pitale, Mandar and Yadawa, JBS and Wang, Zhangyang
 Authors: Papadopoulos, Aristotelis-Angelos and Rajati, Mohammad Reza and Shaikh, Nazim and Wang, Jiamian
 
 
+<a name="5.1.3"></a>
 ### 5.1.3 OOD Data Generation
 
 **[ICLR-2018]**
@@ -293,7 +316,7 @@ Authors: Mandal, Devraj and Narayan, Sanath and Dwivedi, Sai Kumar and Gupta, Vi
 
 Authors: Vernekar, Sachin and Gaurav, Ashish and Abdelzad, Vahdat and Denouden, Taylor and Salay, Rick and Czarnecki, Krzysztof
 
-
+<a name="5.1.4"></a>
 ### 5.1.4 Label Space Redesign
 
 **[arXiv-2021]** 
@@ -319,7 +342,7 @@ Authors: Shalev, Gabi and Adi, Yossi and Keshet, Joseph.
 
 Authors: Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and Lee, Honglak.
 
-
+<a name="5.1.5"></a>
 ### 5.1.5 Big Pretrained Model
 **[arXiv-2021]**
 [Exploring the Limits of Out-of-Distribution Detection](??)
@@ -336,8 +359,9 @@ Authors: Hendrycks, Dan and Liu, Xiaoyuan and Wallace, Eric and Dziedzic, Adam a
 
 Authors: Koner, Rajat and Sinhamahapatra, Poulami and Roscher, Karsten and G{\"u}nnemann, Stephan and Tresp, Volker
 
-
+<a name="5.2"></a>
 ## 5.2 Density-based Method
+<a name="5.2.1"></a>
 ### 5.2.1 Embedding-based Method
 
 **[NeurIPS-2018]**
@@ -385,7 +409,7 @@ Authors: B{\"o}hm, Vanessa and Seljak, Uro{\v{s}}
 
 Authors: Daniel, Tal and Tamar, Aviv
 
-
+<a name="5.2.2"></a>
 ### 5.2.2 Flow-based Method
 **[CVPR-2020]**
 [Deep residual flow for out of distribution detection](?)
@@ -403,7 +427,7 @@ Authors: Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
 
 Authors: Schirrmeister, Robin Tibor and Zhou, Yuxuan and Ball, Tonio and Zhang, Dan
 
-
+<a name="5.2.3"></a>
 ### 5.2.3 Energy-based Method
 **[ICLR-2019]**
 [Your classifier is secretly an energy based model and you should treat it like one](?)
@@ -415,7 +439,9 @@ Authors: Grathwohl, Will and Wang, Kuan-Chieh and Jacobsen, J{\"o}rn-Henrik and 
 
 Authors: Liu, Weitang and Wang, Xiaoyun and Owens, John D and Li, Yixuan
 
+<br>
 
+<a name="5.3"></a>
 ## 5.3 Distance-based Method
 **[ACCV-2020]**
 [Hyperparameter-free out-of-distribution detection using cosine similarity](https://arxiv.org/abs/1905.10628)
@@ -475,7 +501,9 @@ Authors: Sastry, Chandramouli Shama and Oore, Sageev
 
 Authors: Van Amersfoort, Joost and Smith, Lewis and Teh, Yee Whye and Gal, Yarin
 
+<br>
 
+<a name="5.4"></a>
 ## 5.4 Meta-Learning-based Method
 **[NeurIPS-2020]**
 [OOD-MAML: Meta-learning for few-shot out-of-distribution detection and classification](?)
@@ -487,6 +515,9 @@ Authors: Jeong, Taewon and Kim, Heeyoung
 
 Authors: Lee, Hae Beom and Lee, Hayeon and Na, Donghyun and Kim, Saehoon and Park, Minseop and Yang, Eunho and Hwang, Sung Ju
 
+<br>
+
+<a name="5.5"></a>
 ## 5.5 Other Methods
 
 Isolation forests exploits the fact that anomalies are scarce and different and while constructing the isolation tree, it is observed that the anomalous samples appear close to the root of the tree. These anomalies are then identified by measuring the length of the path from the root to a terminating node; the closer a node is to the root, the higher is its chance of representing an OOD.
