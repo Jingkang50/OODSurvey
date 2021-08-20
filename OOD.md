@@ -22,9 +22,9 @@
 ### 5.1.0 Baseline
 **[ICLR-2017]**
 [A baseline for detecting misclassified and out-of-distribution examples in neural networks](https://arxiv.org/abs/1610.02136).
-
+<br>
 **Authors:** Hendrycks, Dan and Gimpel, Kevin
-
+<br>
 **Institution:** University of California, Berkeley; Toyota Technological Institute at Chicago
 > <details>
 > <summary> The starting point that simply uses softmax probabilities for OOD detection.</summary>
@@ -41,30 +41,33 @@
 #### 5.1.1.1 Post-hoc Calibration
 **[ICLR-2018]**
 [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](https://github.com/facebookresearch/odin).
-
-Authors: Liang, Shiyu and Li, Yixuan and Srikant, R.
+<br>
+**Authors:** Liang, Shiyu and Li, Yixuan and Srikant, R.
+<br>
+**Institution:** University of Illinois at Urbana-Champaign; University of Wisconsin-Madison
 > <details>
 > <summary> Using temperature scaling on softmax probabilities with small perturbations for robustness.</summary>
 > <p style="text-align:left">
-> Temperature scaling can calibrate the softmax probabilities so the model takes the calibrated maximum softmax probabilities as the indicator for OOD detection. A perturbation on each sample at test time can further exploit the model robustness in detecting ID samples. However, it requires part of the OOD samples for hyperparameter tuning.
+> Temperature scaling can calibrate the softmax probabilities so the model takes the calibrated maximum softmax probabilities as the indicator for OOD detection. A perturbation on each sample at test time can further exploit the model robustness in detecting ID samples. However, it requires an OOD validation set for hyperparameter tuning.
 > </p>
 > </details>
+
 
 <br>
 
 **[CVPR-2020]**
 [Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data](https://arxiv.org/abs/2002.11297).
-
+<br>
 **Authors:** Hsu, Yen-Chang and Shen, Yilin and Jin, Hongxia and Kira, Zsolt
-
+<br>
 **Institution:** Georgia Institute of Technology; Samsung Research
-
 > <details>
 > <summary> Improving ODIN by decomposed confidence scoring and a modified input pre-processing method.</summary>
 > <p style="text-align:left">
 > The method find that previous work relies on the class posterior probability p(y|x), which does not consider the domain variable at all. Therefore, they use the explicit variable in the classifier, rewriting it as the quotient of the joint class-domain probability and the domain probability using the rule of conditional probability, and take the decomposed confidence scores for OOD detection. The decomposed confidence in the end is the probability of an input being in-distribution, computed by the cosine similarity between sample features and class features. The method also modifies the input preprocessing by only optimizing in-distribution data, therefore extra OOD validation samples are not required.
 > </p>
 > </details>
+
 
 <br>
 
@@ -144,6 +147,8 @@ Authors: Foong, Andrew YK and Li, Yingzhen and Hern{\'a}ndez-Lobato, Jos{\'e} Mi
 > </p>
 > </details>
 
+<br>
+
 <a name="5.1.1.3"></a>
 #### 5.1.1.3 Other Confidence Enhancement Methods
 
@@ -210,12 +215,14 @@ Authors: Meinke, Alexander and Hein, Matthias
 
 **[ECCV-2018]**
 [Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers](https://arxiv.org/abs/1809.03576)
-
-Authors: Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul, Bharat and Willke, Theodore L.
+<br>
+**Authors:** Vyas, Apoorv and Jammalamadaka, Nataraj and Zhu, Xia and Das, Dipankar and Kaul, Bharat and Willke, Theodore L.
+<br>
+**Institution:** Intel labs; Idiap Research Institute
 > <details>
-> <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
+> <summary>Training multiple classifers by leaving out a random subset of training data as OOD data and the rest as in-distribution for ensembling.</summary>
 > <p class="small" style="text-align:left">
-> 
+> They add a novel margin-based loss term to maintain a margin between the average entropy of OOD and ID samples respectively. An ensemble of K leave-out classifiers is used for OOD detection. The weakness is that the large computational cost and extra OOD dataset for hyper-parameter search. 
 > </p>
 > </details>
 
@@ -319,12 +326,6 @@ Authors: Vernekar, Sachin and Gaurav, Ashish and Abdelzad, Vahdat and Denouden, 
 <a name="5.1.4"></a>
 ### 5.1.4 Label Space Redesign
 
-**[arXiv-2021]** 
-[Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004).
-
-Authors: Fort, Stanislav and Ren, Jie and Lakshminarayanan, Balaji.
-
-
 **[CVPR-2021]**
 [MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space](https://arxiv.org/abs/2105.01879).
 
@@ -341,6 +342,7 @@ Authors: Shalev, Gabi and Adi, Yossi and Keshet, Joseph.
 [Hierarchical Novelty Detection for Visual Object Recognition](https://arxiv.org/abs/1804.00722). 
 
 Authors: Lee, Kibok and Lee, Kimin and Min, Kyle and Zhang, Yuting and Shin, Jinwoo and Lee, Honglak.
+
 
 <a name="5.1.5"></a>
 ### 5.1.5 Big Pretrained Model
