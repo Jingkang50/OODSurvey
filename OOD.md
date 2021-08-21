@@ -319,7 +319,7 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 <br>
 **Institution:**
 > <details>
-> <summary>Using an additional background or garbage class for an entropic open-set and objectosphere losses.</summary>
+> <summary>Using an additional background class for an entropic open-set loss and an losses to suppress OOD feature magnitudes.</summary>
 > <p style="text-align:left">
 > The paper designs novel losses to maximize entropy for unknown inputs while increasing separation in deep feature space by modifying magnitudes of known and unknown samples. In sum, logits entropy and feature magnitudes are used for OOD detection.
 > </p>
@@ -327,13 +327,13 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 
 
 **[NeurIPS-2018]**
-[Deep anomaly detection with outlier exposure](https://arxiv.org/abs/1610.02136).
+[Deep anomaly detection with outlier exposure](https://arxiv.org/abs/1610.02136)
 <br>
 **Authors:** Hendrycks, Dan and Mazeika, Mantas and Dietterich, Thomas
 <br>
 **Institution:** University of California, Berkeley; Toyota Technological Institute at Chicago
 > <details>
-> <summary>A model to produce a uniform posterior distribution on auxiliary dataset of outliers.</summary>
+> <summary>A baseline model to produce a uniform posterior distribution on auxiliary dataset of outliers.</summary>
 > <p style="text-align:left">
 > It can learn effective heuristics for detecting out-of-distribution inputs by exposing the model to OOD examples, thus learning a more conservative concept of the inliers and enabling the detection of novel forms of anomalies. The result is shown effective on both CV and NLP tasks.
 > </p>
@@ -341,13 +341,13 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 
 
 **[ICCV-2019]**
-[Unsupervised out-of-distribution detection by maximum classifier discrepancy](https://arxiv.org/abs/1908.04951).
+[Unsupervised out-of-distribution detection by maximum classifier discrepancy](https://arxiv.org/abs/1908.04951)
 <br>
 **Authors:** Yu, Qing and Aizawa, Kiyoharu
 <br>
 **Institution:** The University of Tokyo
 > <details>
-> <summary>Two-branch network to enlarge entropy discrepancy between two branches when encountering OOD training data.</summary>
+> <summary>A network with two branches, between which entropy discrepancy is enlarged for OOD training data.</summary>
 > <p style="text-align:left">
 > It trains a two-head CNN consisting of one common feature extractor and two classifiers which have different decision boundaries but can classify in-distribution samples correctly. Then it uses the unlabeled data to maximize the discrepancy between the decision boundaries of two classifiers to push OOD samples outside the manifold of the in-distribution samples, which enables to detect OOD samples that are far from the support of the ID samples.
 > </p>
@@ -355,7 +355,7 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 
 
 **[AAAI-2020]**
-[Self-Supervised Learning for Generalizable Out-of-Distribution Detection](https://ojs.aaai.org/index.php/AAAI/article/view/5966).
+[Self-Supervised Learning for Generalizable Out-of-Distribution Detection](https://ojs.aaai.org/index.php/AAAI/article/view/5966)
 <br>
 **Authors:** Mohseni, Sina and Pitale, Mandar and Yadawa, JBS and Wang, Zhangyang
 <br>
@@ -375,23 +375,9 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 <br>
 **Institution:** University of Southern California
 > <details>
-> <summary>On the top of OE, this work calibrate the prediction confidence by training accuracy.</summary>
+> <summary>Performing prediction confidence calibration on the top of OE.</summary>
 > <p style="text-align:left">
 > Based on the loss function of OE, this work add the second regularization term to minimize the Euclidean distance between the training accuracy of a DNN and the average confidence in its predictions on the training set.
-> </p>
-> </details>
-
-**[arXiv-2021]**
-[ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining](https://arxiv.org/abs/2006.15207)
-<br>
-**Authors:** Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
-<br>
-**Institution:** University of Wisconsin-Madison; Google
-> <details>
-> <summary>Selectively utilizing auxiliary outlier data for estimating a tight decision boundary between ID and OOD data.</summary>
-> <p style="text-align:left">
-> By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and
-OOD data, which leads to robust OOD detection performance.
 > </p>
 > </details>
 
@@ -403,9 +389,23 @@ OOD data, which leads to robust OOD detection performance.
 <br>
 **Institution:** University of California, San Diego
 > <details>
-> <summary>A resampling approach to obtain a compact yet representative set of background data points.</summary>
+> <summary>Using adversarial resampling approach to obtain a compact yet representative set of background data points.</summary>
 > <p style="text-align:left">
 > This work focuses on training with background and claims that using all background data leads to inefficient or even impractical solution due to imbalance and computational complexity. The resampling algorithm takes inspiration from prior work on hard negative mining, performing an iterative adversarial weighting on the background examples and using the learned weights to obtain the subset of desired size. 
+> </p>
+> </details>
+
+
+**[arXiv-2021]**
+[ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining](https://arxiv.org/abs/2006.15207)
+<br>
+**Authors:** Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
+<br>
+**Institution:** University of Wisconsin-Madison; Google
+> <details>
+> <summary>Using adversarial training to select auxiliary outlier data for a tight decision boundary between ID and OOD data.</summary>
+> <p style="text-align:left">
+> By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and OOD data, which leads to robust OOD detection performance.
 > </p>
 > </details>
 
