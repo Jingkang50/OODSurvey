@@ -1,5 +1,5 @@
 # Generalized Out-of-Distribution Detection in Computer Vision: A Survey
-
+![alt text](./fig/benchmark_outlier.pdf)
 ## 0. Overview
 
 
