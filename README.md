@@ -1,10 +1,14 @@
 # Generalized Out-of-Distribution Detection in Computer Vision: A Survey
-![alt text](fig/benchmark_outlier.jpg)
+![benchmark](fig/benchmark_outlier.jpg)
 ## 0. Overview
 
 
 ## 1. Introduction
+<center class="half">
+<img src="fig/oodtype.jpg" width="200"/><img src="fig/taxonomy.jpg" width="200">
+</center>
 
+![benchmark](fig/oodtype.jpg)![benchmark](fig/taxonomy.jpg)
 
 ## 2. Taxonomy
 - [2.1 Anomaly Detection](#2.1)
