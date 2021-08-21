@@ -4,11 +4,9 @@
 
 
 ## 1. Introduction
-<center class="half">
-<img src="fig/oodtype.jpg" width="200"/><img src="fig/taxonomy.jpg" width="200">
-</center>
-
-![benchmark](fig/oodtype.jpg)![benchmark](fig/taxonomy.jpg)
+![benchmark](fig/oodtype.jpg) | ![benchmark](fig/taxonomy.jpg)
+:-----------------------------:|:-------------------------:
+Fig. 1.1: Two kinds of distribution shifts that can be recognized as OOD. | Fig. 1.2: Taxonomy diagram of generalized OOD detection framework.  
 
 ## 2. Taxonomy
 - [2.1 Anomaly Detection](#2.1)
