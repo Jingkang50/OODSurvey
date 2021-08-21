@@ -80,7 +80,7 @@ The Bayesian uncertainty methods could be directly applied to reject OOD samples
 <br>
 **Authors:** Gal, Yarin and Ghahramani, Zoubin
 <br>
-**Institution:**
+**Institution:** 
 > <details>
 > <summary>Dropout training as approximate Bayesian inference in deep Gaussian processes.</summary>
 > <p style="text-align:left">
@@ -102,67 +102,76 @@ The Bayesian uncertainty methods could be directly applied to reject OOD samples
 > </details>
 
 
-**[ICML-2020]**
-[How good is the bayes posterior in deep neural networks really?](???)
+**[NeurIPS-2019]**
+[Practical deep learning with Bayesian principles](https://arxiv.org/abs/1906.02506).
 <br>
-**Authors:** Wenzel, Florian and Roth, Kevin and Veeling, Bastiaan S and {\'S}wi{\k{a}}tkowski, Jakub and Tran, Linh and Mandt, Stephan and Snoek, Jasper and Salimans, Tim and Jenatton, Rodolphe and Nowozin, Sebastian
+**Authors:** Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz
 <br>
-**Institution:**
+**Institution:** Tokyo Institute of Technology; University of Cambridge; Indian Institute of Technology; University of Osnabrück; RIKEN
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> This work demonstrates practical training of deep networks by using recently proposed natural-gradient variational inference methods. These methods resemble the Adam optimiser, enabling us to leverage existing techniques for initialisation, momentum, batch normalisation, data augmentation, and distributed training. The results show that, despite using an approximate posterior, the training methods preserve the benefits coming from Bayesian principles. the predictive probabilities are well-calibrated, uncertainties on out-of-distribution inputs are improved, and performance for continual-learning tasks is boosted.
+> </p>
+> </details>
+
+
+**[ICMLW-2019]**
+['In-Between' Uncertainty in Bayesian Neural Networks](https://arxiv.org/abs/1906.11537).
+<br>
+**Authors:** Foong, Andrew YK and Li, Yingzhen and Hernandez-Lobato, Jose Miguel and Turner, Richard E
+<br>
+**Institution:** University of Cambridge; Microsoft Research; Alan Turing Institute
+> <details>
+> <summary>Linearised Laplace approximation for better ‘in-between’ uncertainty for small network architectures.</summary>
+> <p style="text-align:left">
+> This work shows that mean-field variational inference (MFVI) fails to give calibrated uncertainty estimates, leading to overconfident predictions when testing on out-of-distribution data. The reason is that it fails to predict with high uncertainty in regions between separated clusters of observations. Then this work finds that a classical technique, the linearised Laplace approximation, can handle ‘in-between’ uncertainty much better for small network architectures.
+> </p>
+> </details>
+
+
+**[NeurIPS-2018]**
+[Predictive Uncertainty Estimation via Prior Networks](https://arxiv.org/abs/1802.10501).
+<br>
+**Authors:** Foong, Andrew YK and Li, Yingzhen and Hernandez-Lobato, Jose Miguel and Turner, Richard E
+<br>
+**Institution:** National University of Singapore
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> In this work, we propose an alternative approach for a DPN classifier that produces sharp, multi-modal Dirichlet distributions for OOD examples to maximize their representation gap from in-domain examples. We design a new loss function that separately models the mean and the precision of the output Dirichlet distributions by introducing a novel explicit precision regularizer along with the cross-entropy loss.
 > </p>
 > </details>
 
 
 **[NeurIPS-2019]**
-[Practical deep learning with Bayesian principles](???).
+[Reverse KL-Divergence Training of Prior Networks: Improved Uncertainty and Adversarial Robustness](https://arxiv.org/abs/1905.13472).
 <br>
-**Authors:** 
+**Authors:** Foong, Andrew YK and Li, Yingzhen and Hernandez-Lobato, Jose Miguel and Turner, Richard E
 <br>
-**Institution:**
-Authors: Osawa, Kazuki and Swaroop, Siddharth and Jain, Anirudh and Eschenhagen, Runa and Turner, Richard E and Yokota, Rio and Khan, Mohammad Emtiyaz
+**Institution:** National University of Singapore
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
-> </p>
-> </details>
-
-
-**[ICML-2020]**
-[Bayesian deep learning and a probabilistic perspective of generalization](???).
-<br>
-**Authors:** 
-<br>
-**Institution:**
-Authors: Wilson, Andrew Gordon and Izmailov, Pavel
-> <details>
-> <summary></summary>
-> <p style="text-align:left">
-> 
+> Predictive uncertainties of DNNs can come from three different sources: model uncertainty, data uncertainty, and distributional uncertainty. Dirichlet Prior Network (DPN) separately models different uncertainty types by producing sharp uni-modal Dirichlet distributions for in-domain examples.
 > </p>
 > </details>
 
 
 
-**[ICMLW-2020]**
-['In-Between' Uncertainty in Bayesian Neural Networks](???).
+**[NeurIPS-2020]**
+[Towards maximizing the representation gap between in-domain & out-of-distribution examples](https://arxiv.org/abs/2010.10474).
 <br>
-**Authors:** 
+**Authors:** Foong, Andrew YK and Li, Yingzhen and Hernandez-Lobato, Jose Miguel and Turner, Richard E
 <br>
-**Institution:**
-Authors: Foong, Andrew YK and Li, Yingzhen and Hernandez-Lobato, Jose Miguel and Turner, Richard E
+**Institution:** National University of Singapore
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> Predictive uncertainties of DNNs can come from three different sources: model uncertainty, data uncertainty, and distributional uncertainty. Dirichlet Prior Network (DPN) separately models different uncertainty types by producing sharp uni-modal Dirichlet distributions for in-domain examples.
 > </p>
 > </details>
 
-
-Dirichlet Prior Network (DPN) separately models different uncertainty types by producing sharp uni-modal Dirichlet distributions for in-domain examples, and flat Dirichlet distributions for OOD
 
 <br>
 
@@ -193,7 +202,7 @@ Authors: Hein, Matthias and Andriushchenko, Maksym and Bitterwolf, Julian
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> ReLU-networks lead to over-confident predictions even for samples that are far away from the in-domain distributions and propose methods to mitigate this problem
 > </p>
 > </details>
 
@@ -213,32 +222,47 @@ Authors: Bitterwolf, Julian and Meinke, Alexander and Hein, Matthias
 > </details>
 
 
+
 **[NeurIPS-2019]**
 [On mixup training: Improved calibration and predictive uncertainty for deep neural networks](???).
 <br>
-**Authors:** 
+**Authors:** Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah
 <br>
 **Institution:**
-Authors: Thulasidasan, Sunil and Chennupati, Gopinath and Bilmes, Jeff and Bhattacharya, Tanmoy and Michalak, Sarah
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> We also observe that mixup-trained DNNs are less prone to over-confident predictions on out-of-distribution and random-noise data.
 > </p>
 > </details>
+
+
+
+**[arXiv-2020]**
+[Contrastive training for improved out-of-distribution detection](https://arxiv.org/abs/2007.05566).
+<br>
+**Authors:** Winkens, Jim and Bunel, Rudy and Roy, Abhijit Guha and Stanforth, Robert and Natarajan, Vivek and Ledsam, Joseph R and MacWilliams, Patricia and Kohli, Pushmeet and Karthikesalingam, Alan and Kohl, Simon and others
+<br>
+**Institution:** Google Health; DeepMind
+> <details>
+> <summary>Encourage model to learn as many high-level, task-agnostic, semantic features as possible from ID dataset through contrastive learning.</summary>
+> <p style="text-align:left">
+> This work proposes a new approach for OOD detection that incorporates contrastive training, which avoids explicit inlier and outlier density modelling in the input space. This work also introduce ‘Confusion Log Probability’ (CLP) as a metric to evaluate OOD detection methods. Using this metric, the proposed method improves OOD detection in both near and far OOD settings, but especially in near OOD settings.
+> </p>
+> </details>
+
 
 
 **[arXiv-2019]**
 [Towards neural networks that provably know when they don't know](???).
 <br>
-**Authors:** 
+**Authors:** Meinke, Alexander and Hein, Matthias
 <br>
 **Institution:**
-Authors: Meinke, Alexander and Hein, Matthias
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> We propose a Certified Certain Uncertainty (CCU) model with which one can train deep neural networks that provably make low-confidence predictions far away from the training data.
 > </p>
 > </details>
 
@@ -292,14 +316,13 @@ Especially, an auxiliary self-supervised rotation loss enables the detection of 
 **[CVPR-2021]**
 [MOOD: Multi-level Out-of-distribution Detection](???).
 <br>
-**Authors:** 
+**Authors:** Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 <br>
-**Institution:**
-Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
+**Institution:** 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> We explore and establish a direct relationship between the OOD data complexity and optimal exit level, and show that easy OOD examples can be effectively detected early without propagating to deeper layers.
 > </p>
 > </details>
 
@@ -319,7 +342,7 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 <br>
 **Institution:**
 > <details>
-> <summary>Using an additional background class for an entropic open-set loss and an losses to suppress OOD feature magnitudes.</summary>
+> <summary>An entropic open-set loss and an OOD-feature-magnitudes-suppression loss on the additional background class.</summary>
 > <p style="text-align:left">
 > The paper designs novel losses to maximize entropy for unknown inputs while increasing separation in deep feature space by modifying magnitudes of known and unknown samples. In sum, logits entropy and feature magnitudes are used for OOD detection.
 > </p>
@@ -396,8 +419,8 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > </details>
 
 
-**[arXiv-2021]**
-[ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining](https://arxiv.org/abs/2006.15207)
+**[ICMLW-2020]**
+[Robust Out-of-distribution Detection via Informative Outlier Mining](https://arxiv.org/abs/2006.15207)
 <br>
 **Authors:** Chen, Jiefeng and Li, Yixuan and Wu, Xi and Liang, Yingyu and Jha, Somesh
 <br>
@@ -408,6 +431,21 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and OOD data, which leads to robust OOD detection performance.
 > </p>
 > </details>
+
+
+**[arXiv-2021]**
+[An Effective Baseline for Robustness to Distributional Shift](https://arxiv.org/abs/2105.07107)
+<br>
+**Authors:** Thulasidasan, Sunil and Thapa, Sushil and Dhaubhadel, Sayera and Chennupati, Gopinath and Bhattacharya, Tanmoy and Bilmes, Jeff
+<br>
+**Institution:** University of Wisconsin-Madison; Google
+> <details>
+> <summary>An extra abstention (or rejection class) in combination with outlier training data for effective OoD detection.</summary>
+> <p style="text-align:left">
+> This work demonstrates the efficacy of using an extra abstention (or rejection class) in combination with outlier training data for effective OoD detection.
+> </p>
+> </details>
+
 
 
 <br>
@@ -509,7 +547,8 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> use multiple semantic dense
+representations as the target label to train the OOD detection network.
 > </p>
 > </details>
 
@@ -590,15 +629,15 @@ Authors: Lin, Ziqian and Roy, Sreya Dutta and Li, Yixuan
 
 
 **[NeurIPS-2019]**
-[Likelihood ratios for out-of-distribution detection](??)
+[Likelihood ratios for out-of-distribution detection](https://arxiv.org/abs/1906.02845)
 <br>
 **Authors:** Ren, Jie and Liu, Peter J and Fertig, Emily and Snoek, Jasper and Poplin, Ryan and DePristo, Mark A and Dillon, Joshua V and Lakshminarayanan, Balaji
 <br>
-**Institution:**
+**Institution:** Google Research; DeepMind
 > <details>
-> <summary></summary>
+> <summary>Using likelihood ratios to cancel out background influence.</summary>
 > <p style="text-align:left">
-> 
+> This work finds the likelihood score is heavily affected by background, so likelihood ratios are used to cancel out background influence. The Likelihood Ratio (LR) is the likelihood that a given test result would be expected in a patient with the target disorder compared to the likelihood that that same result would be expected in a patient without the target disorder.
 > </p>
 > </details>
 
@@ -638,12 +677,10 @@ Authors: Xiao, Zhisheng and Yan, Qing and Amit, Yali
 
 **[NeurIPS-2018]**
 [Do deep generative models know what they don't know?](?)
-
-Authors: Nalisnick, Eric and Matsukawa, Akihiro and Teh, Yee Whye and Gorur, Dilan and Lakshminarayanan, Balaji
 <br>
-**Authors:** 
+**Authors:** Nalisnick, Eric and Matsukawa, Akihiro and Teh, Yee Whye and Gorur, Dilan and Lakshminarayanan, Balaji
 <br>
-**Institution:**
+**Institution:** 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -664,7 +701,7 @@ Authors: Choi, Sungik and Chung, Sae-Young
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> We discover that such conventional novelty detection schemes are also vulnerable to blurred images.
 > </p>
 > </details>
 
@@ -731,34 +768,29 @@ Authors: Daniel, Tal and Tamar, Aviv
 ### 5.2.2 Flow-based Method
 **[CVPR-2020]**
 [Deep residual flow for out of distribution detection](?)
-
-Authors: Zisselman, Ev and Tamar, Aviv
 <br>
-**Authors:** 
+**Authors:** Zisselman, Ev and Tamar, Aviv
 <br>
 **Institution:**
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> It uses a residual flow, a novel flow architecture that learns the residual distribution from a base Gaussian distribution.
 > </p>
 > </details>
 
 
 
-
 **[NeurIPS-2020]**
 [Why normalizing flows fail to detect out-of-distribution data](?)
-
-Authors: Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
 <br>
-**Authors:** 
+**Authors:** Kirichenko, Polina and Izmailov, Pavel and Wilson, Andrew Gordon
 <br>
 **Institution:**
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
-> 
+> Conclusion is that flows do not represent images based on their semantic contents, but rather directly encode their visual appearance.
 > </p>
 > </details>
 
