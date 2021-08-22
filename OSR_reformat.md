@@ -1,3 +1,15 @@
+<a name="top"></a>
+# 4. Multi-Class Novelty Detection & Open Set Recognition
+- [4.1 Classfication-based Method](#4.1)
+  - [4.1.1 EVT-based Uncertainty Calibration](#4.1.1): OpenMax
+  - [4.1.2 Unknown Class Generation](#4.1.2)
+- [4.2 Distance-based Method](#4.2)
+- [4.3 Reconstruction-based Method](#4.3)
+  - [4.3.1 Sparse Representation Method](#4.3.1)
+  - [4.3.2 Reconstruction-Error Method](#4.3.2)
+- [4.4 Hybrid Methods and Others](#4.4)
+
+
 %% OSR Classification Model %%%%%%%%%%%%%%%%%%%%%%
 
 %%% Post-hoc Calibration %

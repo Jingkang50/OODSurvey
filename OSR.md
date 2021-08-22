@@ -1,19 +1,4 @@
-<!-- 
-**[venue-year]**
-[title](link). 
-<br>
-**Authors:** 
-<br>
-**Institution:** 
-> <details>
-> <summary></summary>
-> <p style="text-align:left">
-> 
-> </p>
-> </details>
- -->
-
- <a name="top"></a>
+<a name="top"></a>
 # 4. Multi-Class Novelty Detection & Open Set Recognition
 - [4.1 Classfication-based Method](#4.1)
   - [4.1.1 EVT-based Uncertainty Calibration](#4.1.1): OpenMax

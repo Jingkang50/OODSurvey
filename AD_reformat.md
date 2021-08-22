@@ -1,3 +1,21 @@
+ <a name="top"></a>
+# 3. Anomaly Detection & One-Class Novelty Detection
+- [3.1 Density-based Method](#3.1)
+  - [3.1.1 Classic Density Estimation](#3.1.1)
+  - [3.1.2 NN-based Density Estimation](#3.1.2)
+  - [3.1.3 Energy-based Model](#3.1.3)
+- [3.2 Reconstruction-based Method](#3.2)
+  - [3.2.1 Sparse Representation Method](#3.2.1)
+  - [3.2.2 Reconstruction-Error Method](#3.2.2)
+- [3.3 Classification-based Method](#3.3)
+  - [3.3.1 One-Class Classification](#3.3.1)
+  - [3.3.2 Positive-Unlabeled Learning](#3.3.2)
+  - [3.3.3 Self-Supervised Learning](#3.3.3)
+- [3.4 Distance-based Method](#3.4)
+- [3.5 Meta-Learning-based Method](#3.5)
+- [3.6 Hybrid Methods and Others](#3.6)
+
+
 **[Proceedings of the IEEE-2021]**
 [A unifying review of deep and shallow anomaly detection]()
 <br>
