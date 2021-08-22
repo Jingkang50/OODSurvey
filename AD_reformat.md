@@ -866,14 +866,15 @@
 > </p>
 > </details>
 
-%% AD Classification Model %%%%%%%%%%%%%%%%%%%%%%
+<a name="3.3"></a>
+## 3.3 Classfication-based Method
 
 **[Journal of Artificial Intelligence Research-2013]**
-[Toward supervised anomaly detection]()
+[Toward supervised anomaly detection](https://www.jair.org/index.php/jair/article/view/10802)
 <br>
-**Authors:** G{\"o}rnitz, Nico and Kloft, Marius and Rieck, Konrad and Brefeld, Ulf
+**Authors:** Gornitz, Nico and Kloft, Marius and Rieck, Konrad and Brefeld, Ulf
 <br>
-**Institution:** 
+**Institution:** Technische Universitat Berlin; University of Gottingen; Technische Universitat Darmstadt
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -881,14 +882,14 @@
 > </p>
 > </details>
 
-%% OCC
-
+<a name="3.3.1"></a>
+### 3.3.1 One-Class Classification
 **[Journal of Artificial Intelligence Research-2002]**
-[One-class classification: Concept learning in the absence of counter-examples.]()
+[One-class classification: Concept learning in the absence of counter-examples.](https://elibrary.ru/item.asp?id=5230402)
 <br>
 **Authors:** Tax, David Martinus Johannes
 <br>
-**Institution:** 
+**Institution:** Technische Universiteit Delft (The Netherlands)
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -897,11 +898,11 @@
 > </details>
 
 **[Irish conference on artificial intelligence and cognitive science-2009]**
-[A survey of recent trends in one class classification]()
+[A survey of recent trends in one class classification](https://link.springer.com/chapter/10.1007/978-3-642-17080-5_21)
 <br>
 **Authors:** Khan, Shehroz S and Madden, Michael G
 <br>
-**Institution:** 
+**Institution:** College of Engineering and Informatics; National University of Ireland
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -910,7 +911,7 @@
 > </details>
 
 **[ICML-2018]**
-[Deep one-class classification]()
+[Deep one-class classification](http://proceedings.mlr.press/v80/ruff18a)
 <br>
 **Authors:** Ruff, Lukas and Vandermeulen, Robert and Goernitz, Nico and Deecke, Lucas and Siddiqui, Shoaib Ahmed and Binder, Alexander and M{\"u}ller, Emmanuel and Kloft, Marius
 <br>
@@ -923,11 +924,11 @@
 > </details>
 
 **[CVPR-2021]**
-[PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation]()
+[PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation](https://openaccess.thecvf.com/content/CVPR2021/html/Reiss_PANDA_Adapting_Pretrained_Features_for_Anomaly_Detection_and_Segmentation_CVPR_2021_paper.html)
 <br>
 **Authors:** Reiss, Tal and Cohen, Niv and Bergman, Liron and Hoshen, Yedid
 <br>
-**Institution:** 
+**Institution:** The Hebrew University of Jerusalem, Israel
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -936,11 +937,11 @@
 > </details>
 
 **[CVPR-2019]**
-[Gods: Generalized one-class discriminative subspaces for anomaly detection]()
+[Gods: Generalized one-class discriminative subspaces for anomaly detection](https://openaccess.thecvf.com/content_ICCV_2019/html/Wang_GODS_Generalized_One-Class_Discriminative_Subspaces_for_Anomaly_Detection_ICCV_2019_paper.html)
 <br>
 **Authors:** Wang, Jue and Cherian, Anoop
 <br>
-**Institution:** 
+**Institution:** Australian National University, Canberra; Mitsubishi Electric Research Labs, Cambridge, MA
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -949,11 +950,11 @@
 > </details>
 
 **[ICLR-2020]**
-[Deep semi-supervised anomaly detection]()
+[Deep semi-supervised anomaly detection](https://arxiv.org/abs/1906.02694)
 <br>
 **Authors:** Ruff, Lukas and Vandermeulen, Robert A and G{\"o}rnitz, Nico and Binder, Alexander and M{\"u}ller, Emmanuel and M{\"u}ller, Klaus-Robert and Kloft, Marius
 <br>
-**Institution:** 
+**Institution:** Technical University of Berlin, Germany; 123ai.de, Berlin, Germany; Singapore University of Technology & Design, Singapore; Bonn-Aachen International Center for Information Technology, Germany; Korea University, Seoul, Republic of Korea; Max Planck Institute for Informatics, Saarbrücken, Germany; Technical University of Kaiserslautern, Germany
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -961,14 +962,15 @@
 > </p>
 > </details>
 
-%% PU-Learning
-
+<br>
+<a name="3.3.2"></a>
+### 3.3.2 Positive-Unlabeled Learning
 **[Machine Learning-2020]**
-[Learning from positive and unlabeled data: A survey]()
+[Learning from positive and unlabeled data: A survey](https://link.springer.com/article/10.1007/s10994-020-05877-5)
 <br>
 **Authors:** Bekker, Jessa and Davis, Jesse
 <br>
-**Institution:** 
+**Institution:** Springer Science+Business Media LLC
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -977,11 +979,11 @@
 > </details>
 
 **[International Symposiums on Information Processing-2008]**
-[Learning from positive and unlabeled examples: A survey]()
+[Learning from positive and unlabeled examples: A survey](https://ieeexplore.ieee.org/abstract/document/4554167)
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** 
+**Institution:** College of Computer Science and Technology, Jilin University, Changchun, China; College of Computer, Northeast Normal University, Changchun, China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -990,11 +992,11 @@
 > </details>
 
 **[International Conference on Information, Intelligence, Systems and Applications-2019]**
-[Positive and unlabeled learning algorithms and applications: A survey]()
+[Positive and unlabeled learning algorithms and applications: A survey](https://ieeexplore.ieee.org/abstract/document/8900698)
 <br>
 **Authors:** Jaskie, Kristen and Spanias, Andreas
 <br>
-**Institution:** 
+**Institution:** SenSIP Center, School of ECEE, Arizona State University, USA; SenSIP Center, School of ECEE, Arizona State University, USA
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1007,7 +1009,9 @@
 <br>
 **Authors:** Li, Xiaoli and Liu, Bing
 <br>
-**Institution:** 
+**Institution:** National University of Singapore/
+Singapore-MIT Alliance; Department of Computer Science
+University of Illinois at Chicago 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1016,11 +1020,13 @@
 > </details>
 
 **[Bioinformatics-2006]**
-[PSoL: a positive sample only learning algorithm for finding non-coding RNA genes]()
+[PSoL: a positive sample only learning algorithm for finding non-coding RNA genes](https://academic.oup.com/bioinformatics/article/22/21/2590/250725?login=true)
 <br>
 **Authors:** Wang, Chunlin and Ding, Chris and Meraz, Richard F and Holbrook, Stephen R
 <br>
-**Institution:** 
+**Institution:** Physical Biosciences Division and
+Computational Research Division; Lawrence Berkeley National
+Laboratory, Berkeley, CA 94720, USA
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1029,11 +1035,11 @@
 > </details>
 
 **[ICONIP-2012]**
-[Learning from positive and unlabelled examples using maximum margin clustering]()
+[Learning from positive and unlabelled examples using maximum margin clustering](https://link.springer.com/chapter/10.1007/978-3-642-34487-9_56)
 <br>
 **Authors:** Chaudhari, Sneha and Shevade, Shirish
 <br>
-**Institution:** 
+**Institution:** IBM Research LabBangaloreIndia; Indian Institute of ScienceBangaloreIndia
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1046,7 +1052,7 @@
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** 
+**Institution:** Jilin University, Changchun, P. R. China; Northeast Normal University, Changchun, P. R. China; 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1059,7 +1065,9 @@
 <br>
 **Authors:** Liu, Lu and Peng, Tao
 <br>
-**Institution:** 
+**Institution:** University of Illinois at Urbana-Champaign
+Urbana, 61801 USA; Jilin University
+Changchun, 130012 P.R. China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1072,7 +1080,7 @@
 <br>
 **Authors:** He, Fengxiang and Liu, Tongliang and Webb, Geoffrey I and Tao, Dacheng
 <br>
-**Institution:** 
+**Institution:** University of Sydney, 6 Cleveland St, Darlington, NSW 2008, Australia
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1081,11 +1089,11 @@
 > </details>
 
 **[AAAI-2019]**
-[Learning competitive and discriminative reconstructions for anomaly detection]()
+[Learning competitive and discriminative reconstructions for anomaly detection](https://ojs.aaai.org/index.php/AAAI/article/view/4451)
 <br>
 **Authors:** Tian, Kai and Zhou, Shuigeng and Fan, Jianping and Guan, Jihong
 <br>
-**Institution:** 
+**Institution:** Fudan University; University of North Carolina at Charlotte; Tongji University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1094,11 +1102,11 @@
 > </details>
 
 **[CVPR-2019]**
-[Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection]()
+[Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection](https://openaccess.thecvf.com/content_CVPR_2019/html/Zhong_Graph_Convolutional_Label_Noise_Cleaner_Train_a_Plug-And-Play_Action_Classifier_CVPR_2019_paper.html)
 <br>
 **Authors:** Zhong, Jia-Xing and Li, Nannan and Kong, Weijie and Liu, Shan and Li, Thomas H and Li, Ge
 <br>
-**Institution:** 
+**Institution:**  Peking University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1107,11 +1115,11 @@
 > </details>
 
 **[ICML-2015]**
-[Learning from corrupted binary labels via class-probability estimation]()
+[Learning from corrupted binary labels via class-probability estimation](http://proceedings.mlr.press/v37/menon15.html)
 <br>
 **Authors:** Menon, Aditya and Van Rooyen, Brendan and Ong, Cheng Soon and Williamson, Bob
 <br>
-**Institution:** 
+**Institution:** National ICT Australia and The Australian National University, Canberra;  The Australian National University and National ICT Australia, Canberra
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1120,11 +1128,11 @@
 > </details>
 
 **[Artificial Intelligence and Statistics-2015]**
-[A rate of convergence for mixture proportion estimation, with application to learning from noisy labels]()
+[A rate of convergence for mixture proportion estimation, with application to learning from noisy labels](http://proceedings.mlr.press/v38/scott15.html)
 <br>
 **Authors:** Scott, Clayton
 <br>
-**Institution:** 
+**Institution:** University of Michigan, Department of EECS
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1132,14 +1140,15 @@
 > </p>
 > </details>
 
-%% SSL
-
+<br>
+<a name="3.3.3"></a>
+### 3.3.3 Self-Supervised Learning
 **[ICDM-2008]**
-[Isolation forest]()
+[Isolation forest](https://ieeexplore.ieee.org/abstract/document/4781136)
 <br>
 **Authors:** Liu, Fei Tony and Ting, Kai Ming and Zhou, Zhi-Hua
 <br>
-**Institution:** 
+**Institution:** Monash University, VIC, Australia; Nanjing University, Nanjing, China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1148,11 +1157,11 @@
 > </details>
 
 **[NeurIPS-2018]**
-[Deep anomaly detection using geometric transformations]()
+[Deep anomaly detection using geometric transformations](https://arxiv.org/abs/1805.10917)
 <br>
 **Authors:** Golan, Izhak and El-Yaniv, Ran
 <br>
-**Institution:** 
+**Institution:**  Israel Institute of Technology, Haifa, Israel
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1161,11 +1170,11 @@
 > </details>
 
 **[ICLR-2020]**
-[Classification-based anomaly detection for general data]()
+[Classification-based anomaly detection for general data](https://arxiv.org/abs/2005.02359)
 <br>
 **Authors:** Bergman, Liron and Hoshen, Yedid
 <br>
-**Institution:** 
+**Institution:** The Hebrew University of Jerusalem, Israel
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1174,11 +1183,11 @@
 > </details>
 
 **[NeurIPS-2020]**
-[Csi: Novelty detection via contrastive learning on distributionally shifted instances]()
+[Csi: Novelty detection via contrastive learning on distributionally shifted instances](https://arxiv.org/abs/2007.08176)
 <br>
 **Authors:** Tack, Jihoon and Mo, Sangwoo and Jeong, Jongheon and Shin, Jinwoo
 <br>
-**Institution:** 
+**Institution:** Korea Advanced Institute of Science and Technology
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1187,11 +1196,11 @@
 > </details>
 
 **[CVPR-2021]**
-[Anomaly detection in video via self-supervised and multi-task learning]()
+[Anomaly detection in video via self-supervised and multi-task learning](https://openaccess.thecvf.com/content/CVPR2021/html/Georgescu_Anomaly_Detection_in_Video_via_Self-Supervised_and_Multi-Task_Learning_CVPR_2021_paper.html)
 <br>
 **Authors:** Georgescu, Mariana-Iuliana and Barbalau, Antonio and Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak
 <br>
-**Institution:** 
+**Institution:** University of Bucharest, Romania; MBZ University of Artificial Intelligence, Abu Dhabi; SecurifAI, Romania; University of Central Florida, Orlando, FL
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1200,11 +1209,11 @@
 > </details>
 
 **[CVPR-2019]**
-[Object-centric auto-encoders and dummy anomalies for abnormal event detection in video]()
+[Object-centric auto-encoders and dummy anomalies for abnormal event detection in video](https://openaccess.thecvf.com/content_CVPR_2019/html/Ionescu_Object-Centric_Auto-Encoders_and_Dummy_Anomalies_for_Abnormal_Event_Detection_in_CVPR_2019_paper.html)
 <br>
 **Authors:** Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Georgescu, Mariana-Iuliana and Shao, Ling
 <br>
-**Institution:** 
+**Institution:** Inception Institute of Artificial Intelligence (IIAI), Abu Dhabi, UAE; University of Bucharest, 14 Academiei, Bucharest, Romania; SecurifAI, 21 Mircea Voda, Bucharest, Romania
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
