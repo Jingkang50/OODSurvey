@@ -484,12 +484,29 @@
 
 
 %% AD Classification Model %%%%%%%%%%%%%%%%%%%%%%
+
+**[JAIR-2013]**
+[Toward supervised anomaly detection](https://www.jair.org/index.php/jair/article/view/10802).
+<br>
+**Authors:** Gornitz, Nico and Kloft, Marius and Rieck, Konrad and Brefeld, Ulf
+<br>
+**Institution:** Technische Universitat Berlin; University of Gottingen; Technische Universitat Darmstadt
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> 
+> </p>
+> </details>
+
+
 @article{supervisedad13jair,
   title={Toward supervised anomaly detection},
   author={G{\"o}rnitz, Nico and Kloft, Marius and Rieck, Konrad and Brefeld, Ulf},
   journal={Journal of Artificial Intelligence Research},
   year={2013}
 }
+
+https://www.jair.org/index.php/jair/article/view/10802
 
 %% OCC
 @article{occ02tax,

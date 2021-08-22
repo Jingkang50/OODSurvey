@@ -1,0 +1,1280 @@
+**[Proceedings of the IEEE-2021]**
+[A unifying review of deep and shallow anomaly detection]()
+<br>
+**Authors:** Ruff, Lukas and Kauffmann, Jacob R and Vandermeulen, Robert A and Montavon, Gr{\'e}goire and Samek, Wojciech and Kloft, Marius and Dietterich, Thomas G and M{\"u}ller, Klaus-Robert
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2020]**
+[Deep learning for anomaly detection: A review](https://arxiv.org/abs/2007.02500)
+<br>
+**Authors:** Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton van den
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2020]**
+[Anomalous instance detection in deep learning: A survey](https://arxiv.org/abs/2007.02500)
+<br>
+**Authors:** Bulusu, Saikiran and Kailkhura, Bhavya and Li, Bo and Varshney, P and Song, Dawn
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2019]**
+[Deep learning for anomaly detection: A survey](https://arxiv.org/abs/1901.03407)
+<br>
+**Authors:** Chalapathy, Raghavendra and Chawla, Sanjay
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2019]**
+[A survey on gans for anomaly detection](https://arxiv.org/abs/1906.11632)
+<br>
+**Authors:** Di Mattia, Federico and Galeone, Paolo and De Simoni, Michele and Ghelfi, Emanuele
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Method
+
+**[AAAI-2020]**
+[Detecting semantic anomalies]()
+<br>
+**Authors:** Ahmed, Faruk and Courville, Aaron
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Probabilistic Model %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Density Estimation %%%%%%%%%%%%
+
+%%%% parametric %
+
+**[TPAMI-1998]**
+[Parametric model fitting: From inlier characterization to outlier detection]()
+<br>
+**Authors:** Danuser, Gaudenz and Stricker, Markus
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% - mahalanobis -
+
+**[Chemometrics and intelligent laboratory systems-2000]**
+[The mahalanobis distance]()
+<br>
+**Authors:** De Maesschalck, Roy and Jouan-Rimbaud, Delphine and Massart, D{\'e}sir{\'e} L
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Journal of Experimental Social Psychology-2018]**
+[Detecting multivariate outliers: Use a robust variant of the Mahalanobis distance]()
+<br>
+**Authors:** Leys, Christophe and Klein, Olivier and Dominicy, Yves and Ley, Christophe
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% - GMM -
+
+**[SIAM review-1984]**
+[Mixture densities, maximum likelihood and the EM algorithm]()
+<br>
+**Authors:** Redner, Richard A and Walker, Homer F
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2000]**
+[Anomaly detection over noisy data using learned probability distributions]()
+<br>
+**Authors:** Eskin, Eleazar
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% - Poisson -
+
+**[IEEE Conference on Intelligence and Security Informatics (ISI)-2016]**
+[Poisson factorization for peer-based anomaly detection]()
+<br>
+**Authors:** Turcotte, Melissa and Moore, Juston and Heard, Nick and McPhall, Aaron
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% non-parametric %
+
+**[Journal of the american statistical association-1991]**
+[Review papers: Recent developments in nonparametric density estimation]()
+<br>
+**Authors:** Izenman, Alan Julian
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% - histogram -
+
+**[Communications in Statistics-Theory and Methods-1973]**
+[A histogram method of density estimation]()
+<br>
+**Authors:** Van Ryzin, J
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICTSPCC-2012]**
+[Histogram-based online anomaly detection in hierarchical wireless sensor networks]()
+<br>
+**Authors:** Xie, Miao and Hu, Jiankun and Tian, Biming
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[IEEE Transactions on Network and Service Management-2009]**
+[Histogram-based traffic anomaly detection]()
+<br>
+**Authors:** Kind, Andreas and Stoecklin, Marc Ph and Dimitropoulos, Xenofontas
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[KI-2012: Poster and Demo Track-2012]**
+[Histogram-based outlier score (hbos): A fast unsupervised anomaly detection algorithm]()
+<br>
+**Authors:** Goldstein, Markus and Dengel, Andreas
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% - kde -
+
+**[The annals of mathematical statistics-1962]**
+[On estimation of a probability density function and mode]()
+<br>
+**Authors:** Parzen, Emanuel
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Proceedings of the institution of mechanical engineers-1998]**
+[Applications of probability density estimation to the detection of abnormal conditions in engineering]()
+<br>
+**Authors:** Desforges, MJ and Jacob, PJ and Cooper, JE
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[TKDE-2018]**
+[Anomaly detection using local kernel density estimation and context-based regression]()
+<br>
+**Authors:** Hu, Weiming and Gao, Jun and Li, Bing and Wu, Ou and Du, Junping and Maybank, Stephen
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% old application
+
+**[IEE proceedings C (generation, transmission and distribution)-1982]**
+[Dynamic state estimation including anomaly detection and identification for power systems]()
+<br>
+**Authors:** Nishiya, K and Hasegawa, J and Koike, T
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[IEEE Transactions on software engineering-1993]**
+[Statistical foundations of audit trail analysis for the detection of computer misuse]()
+<br>
+**Authors:** Helman, Paul and Liepins, Gunar
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Computer networks-2007]**
+[An overview of anomaly detection techniques: Existing solutions and latest technological trends]()
+<br>
+**Authors:** Patcha, Animesh and Park, Jung-Min
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2010]**
+[Chaotic invariants of lagrangian particle trajectories for anomaly detection in crowded scenes]()
+<br>
+**Authors:** Wu, Shandong and Moore, Brian E and Shah, Mubarak
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Journal of Computational and Graphical Statistics-2020]**
+[Anomaly detection in high-dimensional data]()
+<br>
+**Authors:** Talagala, Priyanga Dilini and Hyndman, Rob J and Smith-Miles, Kate
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%% Deep Density Estimation %%%%%%%%%%%%
+
+**[ICLR-2018]**
+[Deep autoencoding gaussian mixture model for unsupervised anomaly detection]()
+<br>
+**Authors:** Zong, Bo and Song, Qi and Min, Martin Renqiang and Cheng, Wei and Lumezanu, Cristian and Cho, Daeki and Chen, Haifeng
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%%% - AE -
+
+**[AIChE journal-1991]**
+[Nonlinear principal component analysis using autoassociative neural networks]()
+<br>
+**Authors:** Kramer, Mark A
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%%% - VAE -
+
+**[arXiv-2013]**
+[Auto-encoding variational bayes](https://arxiv.org/abs/1312.6114)
+<br>
+**Authors:** Kingma, Diederik P and Welling, Max
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%%% - GAN -
+
+**[NIPS-2014]**
+[Generative adversarial nets]()
+<br>
+**Authors:** Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Joint european conference on machine learning and knowledge discovery in databases-2018]**
+[Image anomaly detection with generative adversarial networks]()
+<br>
+**Authors:** Deecke, Lucas and Vandermeulen, Robert and Ruff, Lukas and Mandt, Stephan and Kloft, Marius
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2018]**
+[Adversarially learned one-class classifier for novelty detection]()
+<br>
+**Authors:** Sabokrou, Mohammad and Khalooei, Mohammad and Fathy, Mahmood and Adeli, Ehsan
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[NeurIPS-2018]**
+[Generative probabilistic novelty detection with adversarial autoencoders]()
+<br>
+**Authors:** Pidhorskyi, Stanislav and Almohsen, Ranya and Adjeroh, Donald A and Doretto, Gianfranco
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2020]**
+[GAN Ensemble for Anomaly Detection](https://arxiv.org/abs/2012.07988)
+<br>
+**Authors:** Han, Xu and Chen, Xiaohui and Liu, Li-Ping
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition-2019]**
+[Ocgan: One-class novelty detection using gans with constrained latent representations]()
+<br>
+**Authors:** Perera, Pramuditha and Nallapati, Ramesh and Xiang, Bing
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ECCV-2020]**
+[Encoding structure-texture relation with P-Net for anomaly detection in retinal images]()
+<br>
+**Authors:** Zhou, Kang and Xiao, Yuting and Yang, Jianlong and Cheng, Jun and Liu, Wen and Luo, Weixin and Gu, Zaiwang and Liu, Jiang and Gao, Shenghua
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%%% - Flow-based Model -
+
+**[TPAMI-2020]**
+[Normalizing flows: An introduction and review of current methods]()
+<br>
+**Authors:** Kobyzev, Ivan and Prince, Simon and Brubaker, Marcus
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2015]**
+[Variational inference with normalizing flows]()
+<br>
+**Authors:** Rezende, Danilo and Mohamed, Shakir
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%%% - Feature Enhancement -
+
+**[NeurIPS-2018]**
+[A loss framework for calibrated anomaly detection]()
+<br>
+**Authors:** Menon, Aditya Krishna and Williamson, Robert C
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2021]**
+[CutPaste: Self-Supervised Learning for Anomaly Detection and Localization]()
+<br>
+**Authors:** Li, Chun-Liang and Sohn, Kihyuk and Yoon, Jinsung and Pfister, Tomas
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2021]**
+[Multiresolution knowledge distillation for anomaly detection]()
+<br>
+**Authors:** Salehi, Mohammadreza and Sadjadi, Niousha and Baselizadeh, Soroosh and Rohban, Mohammad H and Rabiee, Hamid R
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%% Energy-based Model %%%%%%%%%%%%
+
+**[ICML-2011]**
+[Learning deep energy models]()
+<br>
+**Authors:** Ngiam, Jiquan and Chen, Zhenghao and Koh, Pang Wei and Ng, Andrew Y
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2016]**
+[Deep structured energy based models for anomaly detection]()
+<br>
+**Authors:** Zhai, Shuangfei and Cheng, Yu and Lu, Weining and Zhang, Zhongfei
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICLR-2020]**
+[Iterative energy-based projection on a normal data manifold for anomaly localization]()
+<br>
+**Authors:** Dehaene, David and Frigo, Oriel and Combrexelle, S{\'e}bastien and Eline, Pierre
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-W-2004]**
+[Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories]()
+<br>
+**Authors:** Fei-Fei, Li and Fergus, Rob and Perona, Pietro
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%% Theoretical Analysis %%%%%%%%%%%%
+
+**[ICML-2018]**
+[Open category detection with PAC guarantees]()
+<br>
+**Authors:** Liu, Si and Garrepalli, Risheek and Dietterich, Thomas and Fern, Alan and Hendrycks, Dan
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2021]**
+[Learning Bounds for Open-Set Learning]()
+<br>
+**Authors:** Fang, Zhen and Lu, Jie and Liu, Anjin and Liu, Feng and Zhang, Guangquan
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[NeurIPS-2019]**
+[Multivariate triangular quantile maps for novelty detection]()
+<br>
+**Authors:** Wang, Jingjing and Sun, Sun and Yu, Yaoliang
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Reconstruction Model %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Sparse Representation %
+
+**[AAAI-2021]**
+[LREN: Low-Rank Embedded Network for Sample-Free Hyperspectral Anomaly Detection]()
+<br>
+**Authors:** Jiang, Kai and Xie, Weiying and Lei, Jie and Jiang, Tao and Li, Yunsong
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Multimedia Tools and Applications-2017]**
+[Anomaly detection using sparse reconstruction in crowded scenes]()
+<br>
+**Authors:** Li, Ang and Miao, Zhenjiang and Cen, Yigang and Cen, Yi
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[IEEE Transactions on Circuits and Systems for Video Technology-2013]**
+[Adaptive sparse representations for video anomaly detection]()
+<br>
+**Authors:** Mo, Xuan and Monga, Vishal and Bala, Raja and Fan, Zhigang
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Pattern Recognition-2013]**
+[L1 norm based KPCA for novelty detection]()
+<br>
+**Authors:** Xiao, Yingchao and Wang, Huangang and Xu, Wenli and Zhou, Junwu
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%%% Reconstruction Error %
+
+**[Wireless Telecommunications Symposium-2018]**
+[Autoencoder-based network anomaly detection]()
+<br>
+**Authors:** Chen, Zhaomin and Yeo, Chai Kiat and Lee, Bu Sung and Lau, Chiew Tong
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Special Lecture on IE-2015]**
+[Variational autoencoder based anomaly detection using reconstruction probability]()
+<br>
+**Authors:** An, Jinwon and Cho, Sungzoon
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICLR-W-2018]**
+[Efficient gan-based anomaly detection]()
+<br>
+**Authors:** Zenati, Houssam and Foo, Chuan Sheng and Lecouat, Bruno and Manek, Gaurav and Chandrasekhar, Vijay Ramaseshan
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2019]**
+[Anomaly detection with multiple-hypotheses predictions]()
+<br>
+**Authors:** Nguyen, Duc Tam and Lou, Zhongyu and Klar, Michael and Brox, Thomas
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[NeurIPS-2018]**
+[Generative probabilistic novelty detection with adversarial autoencoders]()
+<br>
+**Authors:** Pidhorskyi, Stanislav and Almohsen, Ranya and Adjeroh, Donald A and Doretto, Gianfranco
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2019]**
+[Latent space autoregression for novelty detection]()
+<br>
+**Authors:** Abati, Davide and Porrello, Angelo and Calderara, Simone and Cucchiara, Rita
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[AAAI-2019]**
+[Learning competitive and discriminative reconstructions for anomaly detection]()
+<br>
+**Authors:** Tian, Kai and Zhou, Shuigeng and Fan, Jianping and Guan, Jihong
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2019]**
+[Memorizing normality to detect anomaly: Memory-augmented deep autoencoder for unsupervised anomaly detection]()
+<br>
+**Authors:** Gong, Dong and Liu, Lingqiao and Le, Vuong and Saha, Budhaditya and Mansour, Moussa Reda and Venkatesh, Svetha and Hengel, Anton van den
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[AAAI-2021]**
+[Learning Semantic Context from Normal Samples for Unsupervised Anomaly Detection]()
+<br>
+**Authors:** Yan, Xudong and Zhang, Huaidong and Xu, Xuemiao and Hu, Xiaowei and Heng, Pheng-Ann
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICLR-2020]**
+[Robust subspace recovery layer for unsupervised anomaly detection]()
+<br>
+**Authors:** Lai, Chieh-Hsin and Zou, Dongmian and Lerman, Gilad
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2018]**
+[Future frame prediction for anomaly detection--a new baseline]()
+<br>
+**Authors:** Liu, Wen and Luo, Weixin and Lian, Dongze and Gao, Shenghua
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Classification Model %%%%%%%%%%%%%%%%%%%%%%
+
+**[Journal of Artificial Intelligence Research-2013]**
+[Toward supervised anomaly detection]()
+<br>
+**Authors:** G{\"o}rnitz, Nico and Kloft, Marius and Rieck, Konrad and Brefeld, Ulf
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% OCC
+
+**[Journal of Artificial Intelligence Research-2002]**
+[One-class classification: Concept learning in the absence of counter-examples.]()
+<br>
+**Authors:** Tax, David Martinus Johannes
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Irish conference on artificial intelligence and cognitive science-2009]**
+[A survey of recent trends in one class classification]()
+<br>
+**Authors:** Khan, Shehroz S and Madden, Michael G
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2018]**
+[Deep one-class classification]()
+<br>
+**Authors:** Ruff, Lukas and Vandermeulen, Robert and Goernitz, Nico and Deecke, Lucas and Siddiqui, Shoaib Ahmed and Binder, Alexander and M{\"u}ller, Emmanuel and Kloft, Marius
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2021]**
+[PANDA: Adapting Pretrained Features for Anomaly Detection and Segmentation]()
+<br>
+**Authors:** Reiss, Tal and Cohen, Niv and Bergman, Liron and Hoshen, Yedid
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2019]**
+[Gods: Generalized one-class discriminative subspaces for anomaly detection]()
+<br>
+**Authors:** Wang, Jue and Cherian, Anoop
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICLR-2020]**
+[Deep semi-supervised anomaly detection]()
+<br>
+**Authors:** Ruff, Lukas and Vandermeulen, Robert A and G{\"o}rnitz, Nico and Binder, Alexander and M{\"u}ller, Emmanuel and M{\"u}ller, Klaus-Robert and Kloft, Marius
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% PU-Learning
+
+**[Machine Learning-2020]**
+[Learning from positive and unlabeled data: A survey]()
+<br>
+**Authors:** Bekker, Jessa and Davis, Jesse
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[International Symposiums on Information Processing-2008]**
+[Learning from positive and unlabeled examples: A survey]()
+<br>
+**Authors:** Zhang, Bangzuo and Zuo, Wanli
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[International Conference on Information, Intelligence, Systems and Applications-2019]**
+[Positive and unlabeled learning algorithms and applications: A survey]()
+<br>
+**Authors:** Jaskie, Kristen and Spanias, Andreas
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[IJCAI-2003]**
+[Learning to classify texts using positive and unlabeled data]()
+<br>
+**Authors:** Li, Xiaoli and Liu, Bing
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Bioinformatics-2006]**
+[PSoL: a positive sample only learning algorithm for finding non-coding RNA genes]()
+<br>
+**Authors:** Wang, Chunlin and Ding, Chris and Meraz, Richard F and Holbrook, Stephen R
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICONIP-2012]**
+[Learning from positive and unlabelled examples using maximum margin clustering]()
+<br>
+**Authors:** Chaudhari, Sneha and Shevade, Shirish
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Journal of Computers-2009]**
+[Reliable Negative Extracting Based on kNN for Learning from Positive and Unlabeled Examples.]()
+<br>
+**Authors:** Zhang, Bangzuo and Zuo, Wanli
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Journal of Information Science and Engineering-2014]**
+[Clustering-based Method for Positive and Unlabeled Text Categorization Enhanced by Improved TFIDF.]()
+<br>
+**Authors:** Liu, Lu and Peng, Tao
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2018]**
+[Instance-dependent pu learning by bayesian optimal relabeling](https://arxiv.org/abs/1808.02180)
+<br>
+**Authors:** He, Fengxiang and Liu, Tongliang and Webb, Geoffrey I and Tao, Dacheng
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[AAAI-2019]**
+[Learning competitive and discriminative reconstructions for anomaly detection]()
+<br>
+**Authors:** Tian, Kai and Zhou, Shuigeng and Fan, Jianping and Guan, Jihong
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2019]**
+[Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection]()
+<br>
+**Authors:** Zhong, Jia-Xing and Li, Nannan and Kong, Weijie and Liu, Shan and Li, Thomas H and Li, Ge
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICML-2015]**
+[Learning from corrupted binary labels via class-probability estimation]()
+<br>
+**Authors:** Menon, Aditya and Van Rooyen, Brendan and Ong, Cheng Soon and Williamson, Bob
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[Artificial Intelligence and Statistics-2015]**
+[A rate of convergence for mixture proportion estimation, with application to learning from noisy labels]()
+<br>
+**Authors:** Scott, Clayton
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% SSL
+
+**[ICDM-2008]**
+[Isolation forest]()
+<br>
+**Authors:** Liu, Fei Tony and Ting, Kai Ming and Zhou, Zhi-Hua
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[NeurIPS-2018]**
+[Deep anomaly detection using geometric transformations]()
+<br>
+**Authors:** Golan, Izhak and El-Yaniv, Ran
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ICLR-2020]**
+[Classification-based anomaly detection for general data]()
+<br>
+**Authors:** Bergman, Liron and Hoshen, Yedid
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[NeurIPS-2020]**
+[Csi: Novelty detection via contrastive learning on distributionally shifted instances]()
+<br>
+**Authors:** Tack, Jihoon and Mo, Sangwoo and Jeong, Jongheon and Shin, Jinwoo
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2021]**
+[Anomaly detection in video via self-supervised and multi-task learning]()
+<br>
+**Authors:** Georgescu, Mariana-Iuliana and Barbalau, Antonio and Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[CVPR-2019]**
+[Object-centric auto-encoders and dummy anomalies for abnormal event detection in video]()
+<br>
+**Authors:** Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Georgescu, Mariana-Iuliana and Shao, Ling
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Distance Model %%%%%%%%%%%%%%%%%%%%%%
+
+**[ICISA-2011]**
+[The anomaly detection by using dbscan clustering with multiple parameters]()
+<br>
+**Authors:** Thang, Tran Manh and Kim, Juntae
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[AIAA Scitech 2020 Forum-2020]**
+[An application of dbscan clustering for flight anomaly detection during the approach phase]()
+<br>
+**Authors:** Sheridan, Kevin and Puranik, Tejas G and Mangortey, Eugene and Pinon-Fischer, Olivia J and Kirby, Michelle and Mavris, Dimitri N
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%%% Meta-Learning %%%%%%%%%%%%
+
+**[arXiv-2018]**
+[Meta-learning: A survey](https://arxiv.org/abs/1810.03548)
+<br>
+**Authors:** Vanschoren, Joaquin
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[arXiv-2020]**
+[Meta-learning in neural networks: A survey](https://arxiv.org/abs/2004.05439)
+<br>
+**Authors:** Hospedales, Timothy and Antoniou, Antreas and Micaelli, Paul and Storkey, Amos
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+**[ECCV-2020]**
+[Backpropagated gradient representations for anomaly detection]()
+<br>
+**Authors:** Kwon, Gukyeong and Prabhushankar, Mohit and Temel, Dogancan and AlRegib, Ghassan
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+
+%% AD Hybrid Model %%%%%%%%%%%%%%%%%%%%%%
+
+**[International Conference on Parallel Problem Solving from Nature-2016]**
+[A hybrid autoencoder and density estimation model for anomaly detection]()
+<br>
+**Authors:** Nicolau, Miguel and McDermott, James and others
+<br>
+**Institution:** 
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+>
+> </p>
+> </details>
+

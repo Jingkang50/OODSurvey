@@ -25,51 +25,10 @@
 - [4.4 Hybrid Methods and Others](#4.4)
 
 
-% ND
-@article{ndsurveyox14sp,
-  title={A review of novelty detection},
-  author={Pimentel, Marco AF and Clifton, David A and Clifton, Lei and Tarassenko, Lionel},
-  journal={Signal Processing},
-  year={2014},
-}
-
-@inproceedings{ndreview10mipro,
-  title={Review of novelty detection methods},
-  author={Miljkovi{\'c}, Dubravko},
-  booktitle={MIPRO},
-  year={2010},
-}
-
-@article{ndsurvey03sp01,
-  title={Novelty detection: a review—part 1: statistical approaches},
-  author={Markou, Markos and Singh, Sameer},
-  journal={Signal processing},
-  year={2003}
-}
-
-@article{ndsurvey03sp02,
-  title={Novelty detection: a review—part 2: neural network based approaches},
-  author={Markou, Markos and Singh, Sameer},
-  journal={Signal processing},
-  year={2003}
-}
-
-% Open Set Recognition 
-@article{osrsurvey20pami,
-  title={Recent advances in open set recognition: A survey},
-  author={Geng, Chuanxing and Huang, Sheng-jun and Chen, Songcan},
-  journal={TPAMI},
-  year={2020}
-}
-
-@inproceedings{boult19aaai,
-  title={Learning and the Unknown: Surveying Steps toward Open World Recognition},
-  author={Boult, Terrance E and Cruz, Steve and Dhamija, Akshay Raj and Gunther, M and Henrydoss, James and Scheirer, Walter J},
-  booktitle={AAAI},
-  year={2019}
-}
 
 %% OSR Classification Model %%%%%%%%%%%%%%%%%%%%%%
+
+
 %%% Post-hoc Calibration %
 @article{cap14pami,
   title={Probability models for open set recognition},
