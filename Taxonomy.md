@@ -11,7 +11,58 @@
 - [2.5 Outlier Detection](#2.5)
 
 
+## 2.1 Anomaly Detection
 
+**[ProcIEEE-2021]**
+[A unifying review of deep and shallow anomaly detection]()
+<br>
+**Authors:** Ruff, Lukas and Kauffmann, Jacob R and Vandermeulen, Robert A and Montavon, Gr{\'e}goire and Samek, Wojciech and Kloft, Marius and Dietterich, Thomas G and M{\"u}ller, Klaus-Robert
+<br>
+**Institution:** 
+
+
+**[arXiv-2020]**
+[Deep learning for anomaly detection: A review](https://arxiv.org/abs/2007.02500)
+<br>
+**Authors:** Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton van den
+<br>
+**Institution:** 
+
+
+**[arXiv-2020]**
+[Anomalous instance detection in deep learning: A survey](https://arxiv.org/abs/2007.02500)
+<br>
+**Authors:** Bulusu, Saikiran and Kailkhura, Bhavya and Li, Bo and Varshney, P and Song, Dawn
+<br>
+**Institution:** 
+
+
+**[arXiv-2019]**
+[Deep learning for anomaly detection: A survey](https://arxiv.org/abs/1901.03407)
+<br>
+**Authors:** Chalapathy, Raghavendra and Chawla, Sanjay
+<br>
+**Institution:** 
+
+
+**[arXiv-2019]**
+[A survey on gans for anomaly detection](https://arxiv.org/abs/1906.11632)
+<br>
+**Authors:** Di Mattia, Federico and Galeone, Paolo and De Simoni, Michele and Ghelfi, Emanuele
+<br>
+**Institution:** 
+
+
+## 2.2 Novelty Detection
+
+
+## 2.3 Open Set Recognition
+
+
+## 2.4 Out-of-Distribution Detection
+
+
+## 2.5 Outlier Detection
 
 @article{outlierprogress19ieee,
   title={Progress in outlier detection techniques: A survey},
