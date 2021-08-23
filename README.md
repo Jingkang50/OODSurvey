@@ -6,7 +6,8 @@
 ## 1. Introduction
 ![benchmark](fig/oodtype.jpg) | ![benchmark](fig/taxonomy.jpg)
 :-----------------------------:|:-------------------------:
-Fig.1.1: Two kinds of distribution shifts that can be recognized as OOD. | Fig.1.2: Taxonomy diagram of generalized OOD detection framework.  
+**Fig.1.1**: Two kinds of distribution shifts that can be recognized as OOD. | **Fig.1.2**: Taxonomy diagram of generalized OOD detection framework.  
+
 
 ## 2. Taxonomy
 - [2.1 Anomaly Detection](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Taxonomy.md#2.1)
@@ -69,20 +70,27 @@ Fig.1.1: Two kinds of distribution shifts that can be recognized as OOD. | Fig.1
 
 
 ## 6. Outlier Detection
-
+- [6.1 Density-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.1)
+- [6.2 Distance-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.2)
+  - [6.2.1 Cluster-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.2.1)
+  - [6.2.2 Neighourhood-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.2.2)
+- [6.3 Classification-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.3)
+- [6.4 Reconstruction-based Method](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.4)
+- [6.5 Hybrid Methods and Others](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Outlier.md#6.5)
 
 
 ## 7. Related Tasks
-Learning with Rejection
-Learning from Open-Set Noisy Labels
-Open-Set Semi-Supervised Learning
+- [7.1 Learning with Rejection](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.1)
+- [7.2 Learning from Open-Set Noisy Labels](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.2)
+- [7.3 Open-Set Semi-Supervised Learning](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.3)
 
-Domain Adaptation
-Open-Set Domain Adaptation
+- [7.4 Domain Adaptation](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.4)
+- [7.5 Open-Set Domain Adaptation](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.5)
 
-Domain Generalization
-Transfer Anomaly Detection
-Zero-Shot Learning
+- [7.6 Domain Generalization](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.6)
+- [7.7 Transfer Anomaly Detection](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.7)
+- [7.8 Zero-Shot Learning](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.8)
 
-Novelty Discovery
-Open-World Recognition
+- [7.9 Novelty Discovery](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.9)
+- [7.10 Open-World Recognition](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Related.md#7.10)
+

@@ -1,45 +1,57 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Outlier Detection 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-@article{outlierprogress19ieee,
-  title={Progress in outlier detection techniques: A survey},
-  author={Wang, Hongzhi and Bah, Mohamed Jaward and Hammad, Mohamed},
-  journal={Ieee Access},
-  year={2019}
-}
+ <a name="top"></a>
+# 6. Outlier Detection
+- [6.1 Density-based Method](#6.1)
+- [6.2 Distance-based Method](#6.2)
+  - [6.2.1 Cluster-based Method](#6.2.1)
+  - [6.2.2 Neighourhood-based Method](#6.2.2)
+- [6.3 Classification-based Method](#6.3)
+- [6.4 Reconstruction-based Method](#6.4)
+- [6.5 Hybrid Methods and Others](#6.5)
 
-@incollection{outlier05handbook,
-  title={Outlier detection},
-  author={Ben-Gal, Irad},
-  booktitle={Data mining and knowledge discovery handbook},
-  year={2005},
-}
 
-@article{outliersurvey04aireview,
-  title={A survey of outlier detection methodologies},
-  author={Hodge, Victoria and Austin, Jim},
-  journal={Artificial intelligence review},
-  year={2004},
-}
 
-@inproceedings{outlierhighd01sigmod,
-  title={Outlier detection for high dimensional data},
-  author={Aggarwal, Charu C and Yu, Philip S},
-  booktitle={ACM SIGMOD},
-  year={2001}
-}
+<a name="6.1"></a>
+## 6.1 Density-based Method
 
-@inproceedings{transductive16iaai,
-  title={A comparative study of inductive and transductive learning with feedforward neural networks},
-  author={Bianchini, Monica and Belahcen, Anas and Scarselli, Franco},
-  booktitle={Conference of the Italian Association for Artificial Intelligence},
-  year={2016},
-}
 
-% method
-@article{matsket18nips,
-  title={Efficient anomaly detection via matrix sketching},
-  author={Sharan, Vatsal and Gopalan, Parikshit and Wieder, Udi},
-  journal={NeurIPS},
-  year={2018}
-}
+
+<a name="6.2"></a>
+## 6.2 Distance-based Method
+
+
+<a name="6.2.1"></a>
+### 6.2.1 Cluster-based Method
+
+
+<a name="6.2.2"></a>
+### 6.2.2 Neighourhood-based Method
+
+
+<a name="6.3"></a>
+## 6.3 Classification-based Method
+
+
+
+<a name="6.4"></a>
+## 6.4 Reconstruction-based Method
+
+
+
+<a name="6.5"></a>
+## 6.5 Hybrid Methods and Others
+
+**[NeurIPS-2018]**
+[Efficient anomaly detection via matrix sketching]().
+<br>
+**Authors:** Sharan, Vatsal and Gopalan, Parikshit and Wieder, Udi
+<br>
+**Institution:**
+> <details>
+> <summary></summary>
+> <p style="text-align:left">
+> Matrix Sketching: input matrix A is efficiently approximated with a more compact matrix B (or product of a few matrices) so that B preserves most of the properties of A up to some guaranteed approximation ratio. We prove general results showing that any sketch of a matrix that satisfies a certain operator norm guarantee can be used to approximate these scores. We instantiate these results with powerful matrix sketching techniques such as Frequent Directions and random projections to derive efficient and practical algorithms for these problems.
+> </p>
+> </details>
+
+
+

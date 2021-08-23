@@ -10,74 +10,66 @@
 - [4.4 Hybrid Methods and Others](#4.4)
 
 
-%% OSR Classification Model %%%%%%%%%%%%%%%%%%%%%%
+<a name="4.1"></a>
+## 4.1 Classfication-based Method
 
-%%% Post-hoc Calibration %
-
-**[TPAMI-2014]**
-[Probability models for open set recognition]()
+**[TPAMI-2013]**
+[Toward Open Set Recognition](https://ieeexplore.ieee.org/abstract/document/6365193)
 <br>
 **Authors:** Scheirer, Walter J and Jain, Lalit P and Boult, Terrance E
 <br>
-**Institution:** 
+**Institution:** Harvard University; University of Campinas; University of Colorado, Colorado Springs
 > <details>
-> <summary></summary>
+> <summary>Kicking-off paper using 1-vs-set machine for OSR.</summary>
 > <p style="text-align:left">
->
+> This paper highlights the practicality of OSR by showing the difference between classification and recognition: classification only has a given set of classes between which we must discriminate; Recognition has some classes we can recognize in a much larger space of things we do not recognize. The paper shows the validity of 1-class SVM and binary SVM for OSR, and proposes 1-vs-Set SVM to manage the open-set risk by solving a two-plane optimization problem instead of the classic half-space of a binary linear classifier.
 > </p>
 > </details>
 
-**[Handbook of applicable mathematics-1990]**
-[Extreme value theory]()
-<br>
-**Authors:** Smith, Richard L
-<br>
-**Institution:** 
-> <details>
-> <summary></summary>
-> <p style="text-align:left">
->
-> </p>
-> </details>
+<a name="4.1.1"></a>
+### 4.1.1 EVT-based Uncertainty Calibration
 
-**[Handbook of applicable mathematics-2012]**
-[Extreme value theory in engineering]()
+**[TPAMI-2014]**
+[Probability models for open set recognition](https://ieeexplore.ieee.org/abstract/document/6809169)
 <br>
-**Authors:** Castillo, Enrique
+**Authors:** Scheirer, Walter J and Jain, Lalit P and Boult, Terrance E
 <br>
-**Institution:** 
+**Institution:** Harvard University; University of Colorado, Colorado Springs
 > <details>
-> <summary></summary>
+> <summary>W-SVM using CAP and EVT for score calibration on one-class and binary SVM.</summary>
 > <p style="text-align:left">
->
+> CAP explicitly models the probability of class membership abating from ID points to OOD points, as classic probabilistic model lacks the consideration of open space, and EVT exactly focuses on modeling the tailed distribution with extreme high/low values. The novel Weibull-calibrated SVM (W-SVM) algorithm is introduced, combining the useful properties of CAP and EVT.
 > </p>
 > </details>
 
 **[ECCV-2014]**
-[Multi-class open set recognition using probability of inclusion]()
+[Multi-class open set recognition using probability of inclusion](https://link.springer.com/content/pdf/10.1007/978-3-319-10578-9_26.pdf)
 <br>
 **Authors:** Jain, Lalit P and Scheirer, Walter J and Boult, Terrance E
 <br>
-**Institution:** 
+**Institution:** University of Coloradom, Colorado Springs; Harvard University; Securics
 > <details>
-> <summary></summary>
+> <summary>PI-SVM estimating the unnormalized posterior probability of class inclusion.
+</summary>
 > <p style="text-align:left">
->
+> Modeling positive training data at the decision boundary, where we can invoke the statistical EVT. A new algorithm called the PI-SVM is introduced for estimating the unnormalized posterior probability of multiple class inclusion.
 > </p>
 > </details>
 
+
 **[CVPR-2016]**
-[Towards open set deep networks]()
+[Towards open set deep networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Bendale_Towards_Open_Set_CVPR_2016_paper.html)
 <br>
 **Authors:** Bendale, Abhijit and Boult, Terrance E
 <br>
-**Institution:** 
+**Institution:** University of Colorado, Colorado Springs
 > <details>
-> <summary></summary>
+> <summary>OpenMax: Replacing softmax layer with OpenMax and calibrating the confidence to predict novel class.</summary>
 > <p style="text-align:left">
->
+> This method uses the scores from the penultimate layer to estimate if the input is “far” from known training data.
 > </p>
 > </details>
+
 
 **[BMVC-2017]**
 [Adversarial robustness: Softmax versus openmax]()
@@ -92,7 +84,9 @@
 > </p>
 > </details>
 
-%%% Unknown Class Generation %
+
+<a name="4.1.2"></a>
+### 4.1.2 Unknown Class Generation
 
 **[BMVC-2017]**
 [Generative openmax for multi-class open set classification]()
@@ -133,7 +127,9 @@
 > </p>
 > </details>
 
-%% OSR Distance Model %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+<a name="4.2"></a>
+## 4.2 Distance-based Method
 
 **[BMVC-2018]**
 [Metric learning for novelty and anomaly detection]()
@@ -213,20 +209,23 @@
 > </p>
 > </details>
 
-%% OSR reconstruction Model %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Sparse Representation
+<a name="4.3"></a>
+## 4.3 Reconstruction-based Method
+
+<a name="4.3.1"></a>
+### 4.3.1 Sparse Representation Method
 
 **[TPAMI-2016]**
-[Sparse representation-based open set recognition]()
+[Sparse representation-based open set recognition](https://arxiv.org/abs/1705.02431)
 <br>
 **Authors:** Zhang, He and Patel, Vishal M
 <br>
-**Institution:** 
+**Institution:** Rutgers University
 > <details>
-> <summary></summary>
+> <summary>SROSR models the tails of the matched and sum of non-matched reconstruction error distributions.</summary>
 > <p style="text-align:left">
->
+> This method model the tail of the above two error distributions using the statistical EVT, and the confidence scores corresponding to the tail distributions of a novel test sample are then fused to determine its identity. Notice that the hidden embedding during reconstruction is regularized by sparsity.
 > </p>
 > </details>
 
@@ -239,7 +238,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> 
 > </p>
 > </details>
 
@@ -269,7 +268,9 @@
 > </p>
 > </details>
 
-% Reconstruction Error
+
+<a name="4.3.2"></a>
+### 4.3.2 Reconstruction-Error Method
 
 **[CVPR-2019]**
 [Classification-reconstruction learning for open-set recognition]()
@@ -293,7 +294,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> 
 > </p>
 > </details>
 
@@ -306,7 +307,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> It uses class conditioned auto-encoders and model reconstruction errors using EVT.
 > </p>
 > </details>
 
@@ -319,7 +320,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> It learns conditional Gaussian distributions by forcing different latent features to approximate different Gaussian models, which enables the proposed method to classify known samples as well as reject unknown samples.
 > </p>
 > </details>
 
@@ -332,11 +333,12 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> generates more realistic images to help the model to focus more on semantics.
 > </p>
 > </details>
 
-%% Hybrid Method %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<a name="4.4"></a>
+### 4.4 Hybrid Method
 
 **[CVPR-2020]**
 [Generative-discriminative feature representations for open-set recognition]()
@@ -347,7 +349,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> It uses self-supervision to make the feature space more descriptive to force open-set samples to separate better from known classes. Second, it augments the input with the representation obtained from the generative model.
 > </p>
 > </details>
 
@@ -360,7 +362,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> First, a decoder is used to ensure that clean images can be reconstructed from the obtained latent features. Then, self-supervision is used to ensure that the latent features are informative enough to carry out an auxiliary task.
 > </p>
 > </details>
 
@@ -373,7 +375,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> the transformation from the raw image space to the embedding feature space to apply reconstruction error method and do classification in a transformed abundance space.
 > </p>
 > </details>
 
@@ -386,7 +388,7 @@
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
->
+> It composes of an encoder to encode the input data into a joint embedding space, a classifier to classify samples to inlier classes, and a flow-based density estimator to detect whether a sample belongs to the unknown category.
 > </p>
 > </details>
 
