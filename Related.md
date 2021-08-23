@@ -1,18 +1,18 @@
 <a name="top"></a>
 # 7. Related Topics
-- [7.1 Learning with Rejection](#7.1)
-- [7.2 Learning from Open-Set Noisy Labels](#7.2)
-- [7.3 Open-Set Semi-Supervised Learning](#7.3)
+[7.1 Learning with Rejection](#7.1)
+[7.2 Learning from Open-Set Noisy Labels](#7.2)
+[7.3 Open-Set Semi-Supervised Learning](#7.3)
 
-- [7.4 Domain Adaptation](#7.4)
-- [7.5 Open-Set Domain Adaptation](#7.5)
+[7.4 Domain Adaptation](#7.4)
+[7.5 Open-Set Domain Adaptation](#7.5)
 
-- [7.6 Domain Generalization](#7.6)
-- [7.7 Transfer Anomaly Detection](#7.7)
-- [7.8 Zero-Shot Learning](#7.8)
+[7.6 Domain Generalization](#7.6)
+[7.7 Transfer Anomaly Detection](#7.7)
+[7.8 Zero-Shot Learning](#7.8)
 
-- [7.9 Novelty Discovery](#7.9)
-- [7.10 Open-World Recognition](#7.10)
+[7.9 Novelty Discovery](#7.9)
+[7.10 Open-World Recognition](#7.10)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
