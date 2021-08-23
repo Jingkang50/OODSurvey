@@ -825,7 +825,7 @@
 <br>
 **Authors:** Tax, David Martinus Johannes
 <br>
-**Institution:** Technische Universiteit Delft (The Netherlands)
+**Institution:** TU Delft
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -838,7 +838,7 @@
 <br>
 **Authors:** Khan, Shehroz S and Madden, Michael G
 <br>
-**Institution:** National University of Ireland, Galway, Ireland
+**Institution:** National University of Ireland
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -851,7 +851,7 @@
 <br>
 **Authors:** Ruff, Lukas and Vandermeulen, Robert and Goernitz, Nico and Deecke, Lucas and Siddiqui, Shoaib Ahmed and Binder, Alexander and M{\"u}ller, Emmanuel and Kloft, Marius
 <br>
-**Institution:** Humboldt University of Berlin, Germany; Hasso Plattner Institute, Potsdam, Germany; TU Kaiserslautern, Kaiserslautern, Germany; TU Berlin, Germany; University of Edinburgh, Edinburgh; Singapore University of Technology and Design, Singapore
+**Institution:** Humboldt University of Berlin; Hasso Plattner Institute; TU Kaiserslautern; TU Berlin; University of Edinburgh; Singapore University of Technology and Design
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -864,7 +864,7 @@
 <br>
 **Authors:** Reiss, Tal and Cohen, Niv and Bergman, Liron and Hoshen, Yedid
 <br>
-**Institution:** The Hebrew University of Jerusalem, Israel
+**Institution:** The Hebrew University of Jerusalem
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -877,7 +877,7 @@
 <br>
 **Authors:** Wang, Jue and Cherian, Anoop
 <br>
-**Institution:** Australian National University, Canberra; Mitsubishi Electric Research Labs, Cambridge, MA
+**Institution:** Australian National University; Mitsubishi Electric Research Labs
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -890,7 +890,7 @@
 <br>
 **Authors:** Ruff, Lukas and Vandermeulen, Robert A and G{\"o}rnitz, Nico and Binder, Alexander and M{\"u}ller, Emmanuel and M{\"u}ller, Klaus-Robert and Kloft, Marius
 <br>
-**Institution:** Technical University of Berlin, Germany; 123ai.de, Berlin, Germany; Singapore University of Technology & Design, Singapore; Bonn-Aachen International Center for Information Technology, Germany; Korea University, Seoul, Republic of Korea; Max Planck Institute for Informatics, Saarbrücken, Germany; Technical University of Kaiserslautern, Germany
+**Institution:** Technical University of Berlin; Singapore University of Technology & Design; Bonn-Aachen International Center for Information Technology, Germany; Korea University; Max Planck Institute for Informatics; Technical University of Kaiserslautern
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -907,7 +907,7 @@
 <br>
 **Authors:** Bekker, Jessa and Davis, Jesse
 <br>
-**Institution:** KU Leuven, Leuven, Belgium
+**Institution:** KU Leuven
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -920,7 +920,7 @@
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** Jilin University, Changchun, China; Northeast Normal University, Changchun, China
+**Institution:** Jilin University; Northeast Normal University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -933,7 +933,7 @@
 <br>
 **Authors:** Jaskie, Kristen and Spanias, Andreas
 <br>
-**Institution:** Arizona State University, USA
+**Institution:** Arizona State University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -946,7 +946,7 @@
 <br>
 **Authors:** Li, Xiaoli and Liu, Bing
 <br>
-**Institution:** National University of Singapore/Singapore-MIT Alliance; University of Illinois at Chicago 
+**Institution:** National University of Singapore; University of Illinois at Chicago 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -959,7 +959,7 @@
 <br>
 **Authors:** Wang, Chunlin and Ding, Chris and Meraz, Richard F and Holbrook, Stephen R
 <br>
-**Institution:** Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+**Institution:** Lawrence Berkeley National Laboratory
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -972,7 +972,7 @@
 <br>
 **Authors:** Chaudhari, Sneha and Shevade, Shirish
 <br>
-**Institution:** IBM Research LabBangaloreIndia; Indian Institute of ScienceBangaloreIndia
+**Institution:** IBM Research; Indian Institute of Science
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -985,7 +985,7 @@
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** Jilin University, Changchun, P. R. China; Northeast Normal University, Changchun, P. R. China
+**Institution:** Jilin University; Northeast Normal University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -998,7 +998,7 @@
 <br>
 **Authors:** Liu, Lu and Peng, Tao
 <br>
-**Institution:** University of Illinois at Urbana-Champaign Urbana, 61801 USA; Jilin University Changchun, 130012 P.R. China
+**Institution:** University of Illinois at Urbana-Champaign Urbana; Jilin University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1011,7 +1011,7 @@
 <br>
 **Authors:** He, Fengxiang and Liu, Tongliang and Webb, Geoffrey I and Tao, Dacheng
 <br>
-**Institution:** University of Sydney, 6 Cleveland St, Darlington, NSW 2008, Australia
+**Institution:** University of Sydney
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1024,7 +1024,7 @@
 <br>
 **Authors:** Tian, Kai and Zhou, Shuigeng and Fan, Jianping and Guan, Jihong
 <br>
-**Institution:** Fudan University; University of North Carolina at Charlotte; Tongji University
+**Institution:** Fudan University; University of North Carolina; Tongji University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1037,7 +1037,7 @@
 <br>
 **Authors:** Zhong, Jia-Xing and Li, Nannan and Kong, Weijie and Liu, Shan and Li, Thomas H and Li, Ge
 <br>
-**Institution:**  Peking University
+**Institution:** Peking University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1050,7 +1050,7 @@
 <br>
 **Authors:** Menon, Aditya and Van Rooyen, Brendan and Ong, Cheng Soon and Williamson, Bob
 <br>
-**Institution:** National ICT Australia; The Australian National University, Canberra
+**Institution:** National ICT Australia; The Australian National University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1080,7 +1080,7 @@
 <br>
 **Authors:** Liu, Fei Tony and Ting, Kai Ming and Zhou, Zhi-Hua
 <br>
-**Institution:** Monash University, VIC, Australia; Nanjing University, Nanjing, China
+**Institution:** Monash University; Nanjing University
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1093,7 +1093,7 @@
 <br>
 **Authors:** Golan, Izhak and El-Yaniv, Ran
 <br>
-**Institution:**  Israel Institute of Technology, Haifa, Israel
+**Institution:**  Israel Institute of Technology
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1106,7 +1106,7 @@
 <br>
 **Authors:** Bergman, Liron and Hoshen, Yedid
 <br>
-**Institution:** The Hebrew University of Jerusalem, Israel
+**Institution:** The Hebrew University of Jerusalem
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1119,7 +1119,7 @@
 <br>
 **Authors:** Tack, Jihoon and Mo, Sangwoo and Jeong, Jongheon and Shin, Jinwoo
 <br>
-**Institution:** Korea Advanced Institute of Science and Technology
+**Institution:** KAIST
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1132,7 +1132,7 @@
 <br>
 **Authors:** Georgescu, Mariana-Iuliana and Barbalau, Antonio and Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Popescu, Marius and Shah, Mubarak
 <br>
-**Institution:** University of Bucharest, Romania; MBZ University of Artificial Intelligence, Abu Dhabi; SecurifAI, Romania; University of Central Florida, Orlando, FL
+**Institution:** University of Bucharest; Abu Dhabi; SecurifAI; University of Central Florida
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1145,7 +1145,7 @@
 <br>
 **Authors:** Ionescu, Radu Tudor and Khan, Fahad Shahbaz and Georgescu, Mariana-Iuliana and Shao, Ling
 <br>
-**Institution:** Inception Institute of Artificial Intelligence (IIAI), Abu Dhabi, UAE; University of Bucharest, 14 Academiei, Bucharest, Romania; SecurifAI, 21 Mircea Voda, Bucharest, Romania
+**Institution:** IIAI; University of Bucharest; SecurifAI
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
