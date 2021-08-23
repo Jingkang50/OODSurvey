@@ -902,7 +902,7 @@
 <br>
 **Authors:** Khan, Shehroz S and Madden, Michael G
 <br>
-**Institution:** College of Engineering and Informatics; National University of Ireland
+**Institution:** National University of Ireland, Galway, Ireland
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -915,7 +915,7 @@
 <br>
 **Authors:** Ruff, Lukas and Vandermeulen, Robert and Goernitz, Nico and Deecke, Lucas and Siddiqui, Shoaib Ahmed and Binder, Alexander and M{\"u}ller, Emmanuel and Kloft, Marius
 <br>
-**Institution:** 
+**Institution:** Humboldt University of Berlin, Germany; Hasso Plattner Institute, Potsdam, Germany; TU Kaiserslautern, Kaiserslautern, Germany; TU Berlin, Germany; University of Edinburgh, Edinburgh; Singapore University of Technology and Design, Singapore
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -971,7 +971,7 @@
 <br>
 **Authors:** Bekker, Jessa and Davis, Jesse
 <br>
-**Institution:** Springer Science+Business Media LLC
+**Institution:** KU Leuven, Leuven, Belgium
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -984,7 +984,7 @@
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** College of Computer Science and Technology, Jilin University, Changchun, China; College of Computer, Northeast Normal University, Changchun, China
+**Institution:** Jilin University, Changchun, China; Northeast Normal University, Changchun, China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -997,7 +997,7 @@
 <br>
 **Authors:** Jaskie, Kristen and Spanias, Andreas
 <br>
-**Institution:** SenSIP Center, School of ECEE, Arizona State University, USA; SenSIP Center, School of ECEE, Arizona State University, USA
+**Institution:** Arizona State University, USA
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1010,9 +1010,7 @@
 <br>
 **Authors:** Li, Xiaoli and Liu, Bing
 <br>
-**Institution:** National University of Singapore/
-Singapore-MIT Alliance; Department of Computer Science
-University of Illinois at Chicago 
+**Institution:** National University of Singapore/Singapore-MIT Alliance; University of Illinois at Chicago 
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1025,9 +1023,7 @@ University of Illinois at Chicago
 <br>
 **Authors:** Wang, Chunlin and Ding, Chris and Meraz, Richard F and Holbrook, Stephen R
 <br>
-**Institution:** Physical Biosciences Division and
-Computational Research Division; Lawrence Berkeley National
-Laboratory, Berkeley, CA 94720, USA
+**Institution:** Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1049,11 +1045,11 @@ Laboratory, Berkeley, CA 94720, USA
 > </details>
 
 **[Journal of Computers-2009]**
-[Reliable Negative Extracting Based on kNN for Learning from Positive and Unlabeled Examples.]()
+[Reliable Negative Extracting Based on kNN for Learning from Positive and Unlabeled Examples.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.415.7161&rep=rep1&type=pdf)
 <br>
 **Authors:** Zhang, Bangzuo and Zuo, Wanli
 <br>
-**Institution:** Jilin University, Changchun, P. R. China; Northeast Normal University, Changchun, P. R. China; 
+**Institution:** Jilin University, Changchun, P. R. China; Northeast Normal University, Changchun, P. R. China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1062,13 +1058,11 @@ Laboratory, Berkeley, CA 94720, USA
 > </details>
 
 **[Journal of Information Science and Engineering-2014]**
-[Clustering-based Method for Positive and Unlabeled Text Categorization Enhanced by Improved TFIDF.]()
+[Clustering-based Method for Positive and Unlabeled Text Categorization Enhanced by Improved TFIDF.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.684.162&rep=rep1&type=pdf)
 <br>
 **Authors:** Liu, Lu and Peng, Tao
 <br>
-**Institution:** University of Illinois at Urbana-Champaign
-Urbana, 61801 USA; Jilin University
-Changchun, 130012 P.R. China
+**Institution:** University of Illinois at Urbana-Champaign Urbana, 61801 USA; Jilin University Changchun, 130012 P.R. China
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1120,7 +1114,7 @@ Changchun, 130012 P.R. China
 <br>
 **Authors:** Menon, Aditya and Van Rooyen, Brendan and Ong, Cheng Soon and Williamson, Bob
 <br>
-**Institution:** National ICT Australia and The Australian National University, Canberra;  The Australian National University and National ICT Australia, Canberra
+**Institution:** National ICT Australia; The Australian National University, Canberra
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
@@ -1133,7 +1127,7 @@ Changchun, 130012 P.R. China
 <br>
 **Authors:** Scott, Clayton
 <br>
-**Institution:** University of Michigan, Department of EECS
+**Institution:** University of Michigan
 > <details>
 > <summary></summary>
 > <p style="text-align:left">
