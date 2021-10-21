@@ -1,0 +1,11 @@
+## 7. Challenges and Future Direction
+- [7.1 Challenges]()
+  - [7.1.1 Proper Evaluation and Benchmarking]()
+  - [7.1.2 Outlier-free OOD Detection]()
+  - [7.1.3 Tradeoff Between Classification and OOD Detection]()
+  - [7.1.4 Real-world Benchmarks and Evaluations]()
+- [7.2  Future Directions]()
+  - [7.2.1 Methodologies across Sub-tasks]()
+  - [7.2.2 OOD Detection & OOD Generalization]()
+  - [7.2.3 OOD Detection & Open-Set Noisy Labels]()
+  - [7.2.4 Theoretical Analysis]()
