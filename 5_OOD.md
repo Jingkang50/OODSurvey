@@ -10,9 +10,6 @@
   - [5.1.4 Bayesian Models](#5.1.4)
   - [5.1.5 Big Pretrained Model](#5.1.5)
 - [5.2 Density-based Method](#5.2)
-  - [5.2.1 Embedding-based Method](#5.1.1)
-  - [5.2.2 Flow-based Methods](#5.1.2)
-  - [5.2.3 Energy-based Methods](#5.1.3)
 - [5.3 Distance-based Method](#5.3)
 
 
@@ -148,7 +145,7 @@ University of Wisconsin-Madison
 **Institution:** Korea Advanced Institute of Science and Technology (KAIST); University of Michigan; Google Brain; AItrics
 
 
-**[NeurIPS-W-2019]**
+**[NeurIPSW-2019]**
 [Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/abs/1912.12510).
 <br>
 **Authors:** Chandramouli Shama Sastry, Sageev Oore
@@ -712,6 +709,23 @@ University of Wisconsin-Madison
 **Institution:** Google Inc.
 
 
+**[CVPR-2018]**
+[Adversarially learned one-class classifier for novelty detection](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sabokrou_Adversarially_Learned_One-Class_CVPR_2018_paper.pdf)
+<br>
+**Authors:** Mohammad Sabokrou, Mohammad Khalooei, Mahmood Fathy, Ehsan Adeli
+<br>
+**Institution:** Institute for Research in Fundamental Sciences; Amirkabir University of Technology; Stanford University
+
+
+**[NeurIPS-2018]**
+[A simple unified framework for detecting out-of-distribution samples and adversarial attacks](https://proceedings.neurips.cc/paper/2018/file/abdeb6f575ac5c6676b747bca8d09cc2-Paper.pdf)
+<br>
+**Authors:** Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin
+<br>
+**Institution:** Korea Advanced Institute of Science and Technology (KAIST); University of Michigan; Google Brain; AItrics
+
+
+
 
 **[NeurIPS-2019]**
 [Likelihood ratios for out-of-distribution detection](https://arxiv.org/pdf/1906.02845.pdf)
@@ -733,23 +747,6 @@ University of Wisconsin-Madison
 **Authors:** Davide Abati, Angelo Porrello, Simone Calderara, Rita Cucchiara
 <br>
 **Institution:** University of Modena and Reggio Emilia
-
-
-
-**[CVPR-2018]**
-[Adversarially learned one-class classifier for novelty detection](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sabokrou_Adversarially_Learned_One-Class_CVPR_2018_paper.pdf)
-<br>
-**Authors:** Mohammad Sabokrou, Mohammad Khalooei, Mahmood Fathy, Ehsan Adeli
-<br>
-**Institution:** Institute for Research in Fundamental Sciences; Amirkabir University of Technology; Stanford University
-
-
-**[NeurIPS-2018]**
-[A simple unified framework for detecting out-of-distribution samples and adversarial attacks](https://proceedings.neurips.cc/paper/2018/file/abdeb6f575ac5c6676b747bca8d09cc2-Paper.pdf)
-<br>
-**Authors:** Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin
-<br>
-**Institution:** Korea Advanced Institute of Science and Technology (KAIST); University of Michigan; Google Brain; AItrics
 
 
 
