@@ -86,7 +86,7 @@ We are also planning to build an evaluation benchmark to compare representative 
   - [5.1.2 OOD Data Generation](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.1.3)
   - [5.1.3 Gradient-based Methods](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.1.4)
   - [5.1.4 Bayesian Models](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.1.4)
-  - [5.1.5 Big Pretrained Model](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.1.5)
+  - [5.1.5 Large-scale OOD Detection](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.1.5)
 - [5.2 Density-based Methods](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.2)
 - [5.3 Distance-based Methods](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/5_OOD.md#5.3)
 
