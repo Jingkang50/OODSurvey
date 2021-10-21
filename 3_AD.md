@@ -29,11 +29,11 @@
 
 
 **[JESP-2018]**
-[Parametric model fitting: from inlier characterization to outlier detection](https://www.sciencedirect.com/science/article/abs/pii/S0022103117302123#!)
+[Detecting multivariate outliers: Use a robust variant of the mahalanobis distance](https://www.sciencedirect.com/science/article/abs/pii/S0022103117302123#!)
 <br>
 **Authors:** Christophe Leys, Olivier Klein, Yves Dominicy
 <br>
-**Institution:** Universit¨¦libre de Bruxelles; Ghent University
+**Institution:** University libre de Bruxelles; Ghent University
 
 
 **[ICML-2000]**
