@@ -82,6 +82,13 @@
 <a name="4.1.2"></a>
 ### 4.1.2 EVT-free Calibration
 
+**[ICCV-2021]**
+[Evidential Deep Learning for Open Set Action Recognition](https://arxiv.org/abs/2107.10161).
+<br>
+**Authors:** Wentao Bao, Qi Yu and Yu Kong
+<br>
+**Institution:** Rochester Institute of Technology, Rochester, NY 14623, USA
+
 **[CVPR-2019]**
 [Deep transfer learning for multiple class novelty detection](https://openaccess.thecvf.com/content_CVPR_2019/html/Perera_Deep_Transfer_Learning_for_Multiple_Class_Novelty_Detection_CVPR_2019_paper.html)
 <br>
@@ -89,8 +96,6 @@
 <br>
 **Institution:** Johns Hopkins University
  
-
-
 **[CVPR-2020]**
 [Generative-discriminative feature representations for open-set recognition](https://openaccess.thecvf.com/content_CVPR_2020/html/Perera_Generative-Discriminative_Feature_Representations_for_Open-Set_Recognition_CVPR_2020_paper.html)
 <br>
@@ -216,6 +221,21 @@
 
 <a name="4.2"></a>
 ## 4.2 Distance-based Method
+
+**[TPAMI-2021]**
+[Adversarial Reciprocal Points Learning for Open Set Recognition](https://arxiv.org/abs/2103.00953).
+<br>
+**Authors:** Guangyao Chen, Peixi Peng, Xiangqian Wang and Yonghong Tian
+<br>
+**Institution:** Peking University, Peng Cheng Laboratory
+
+**[TPAMI-2020]**
+[Convolutional Prototype Network for Open Set Recognition](https://ieeexplore.ieee.org/document/9296325).
+<br>
+**Authors:** Hong-Ming Yang, Xu-Yao Zhang, Fei Yin, Qing Yang and Cheng-Lin Liu
+<br>
+**Institution:** Institute of Automation Chinese Academy of Sciences
+
 
 **[BMVC-2018]**
 [Metric learning for novelty and anomaly detection](https://arxiv.org/abs/1808.05492)
