@@ -69,6 +69,18 @@
 <br>
 **Institution:** Dalhousie University, Halifax
 
+**[CVPR-2021]**
+[MOOD: Multi-level Out-of-distribution Detection](https://arxiv.org/abs/2104.14726).
+<br>
+**Authors:** Ziqian Lin, Sreya Dutta Roy, Yixuan Li
+<br>
+**Institution:** University of Wisconsin-Madison
+> <details>
+> <summary>Accelerate training by finding optimal exit level via data complexity.</summary>
+> <p style="text-align:left">
+>We explore and establish a direct relationship between the OOD data complexity and optimal exit level, and show that easy OOD examples can be effectively detected early without propagating to deeper layers.
+> </p>
+> </details>
 
 **[NeurIPS-2021]**
 [React: Out-of-distribution detection with rectified activations](http://pages.cs.wisc.edu/~sharonli/).
@@ -136,22 +148,6 @@ University of Wisconsin-Madison
 >They add a novel margin-based loss term to maintain a margin between the average entropy of OOD and ID samples respectively. An ensemble of K leave-out classifiers is used for OOD detection. The weakness is that the large computational cost and extra OOD dataset for hyper-parameter search.
 > </p>
 > </details>
-
-**[NeurIPS-2018]**
-[A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/abs/1807.03888).
-<br>
-**Authors:** Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin
-<br>
-**Institution:** Korea Advanced Institute of Science and Technology (KAIST); University of Michigan; Google Brain; AItrics
-
-
-**[NeurIPSW-2019]**
-[Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/abs/1912.12510).
-<br>
-**Authors:** Chandramouli Shama Sastry, Sageev Oore
-<br>
-**Institution:** Dalhousie University, Halifax
-
 
 
 **[CVPR-2019]**
@@ -235,14 +231,6 @@ University of Wisconsin-Madison
 > </p>
 > </details>
 
-**[ICML-2020]**
-[Detecting Out-of-Distribution Examples with In-distribution Examples and Gram Matrices](https://arxiv.org/abs/1912.12510).
-<br>
-**Authors:** Chandramouli Shama Sastry, Sageev Oore
-<br>
-**Institution:** Dalhousie University, Halifax
-
-
 **[NeurIPS-2020]**
 [Certifiably Adversarially Robust Detection of Out-of-Distribution Data](https://arxiv.org/abs/2007.08473).
 <br>
@@ -270,21 +258,6 @@ University of Wisconsin-Madison
 **Authors:** Sungik Choi, Sae-Young Chung
 <br>
 **Institution:** Korea Advanced Institute of Science and Technology
-
-
-
-**[CVPR-2021]**
-[MOOD: Multi-level Out-of-distribution Detection](https://arxiv.org/abs/2104.14726).
-<br>
-**Authors:** Ziqian Lin, Sreya Dutta Roy, Yixuan Li
-<br>
-**Institution:** University of Wisconsin-Madison
-> <details>
-> <summary>Accelerate training by finding optimal exit level via data complexity.</summary>
-> <p style="text-align:left">
->We explore and establish a direct relationship between the OOD data complexity and optimal exit level, and show that easy OOD examples can be effectively detected early without propagating to deeper layers.
-> </p>
-> </details>
 
 
 
@@ -412,6 +385,19 @@ University of Wisconsin-Madison
 **Institution:** Nanyang Technological University; SenseTime Research, Shanghai Jiaotong Univerisity; Shanghai AI Lab.
 
 
+**[ECML PKDD-2021]**
+[ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining](https://arxiv.org/abs/2006.15207)
+<br>
+**Authors:** Jiefeng Chen, Yixuan Li, Xi Wu, Yingyu Liang, Somesh Jha
+<br>
+**Institution:** University of Wisconsin-Madison;  Google
+> <details>
+> <summary>Using adversarial training to select auxiliary outlier data for a tight decision boundary between ID and OOD data.</summary>
+> <p style="text-align:left">
+>By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and OOD data, which leads to robust OOD detection performance.
+> </p>
+> </details>
+> 
 **[arXiv-2021]**
 [An Effective Baseline for Robustness to Distributional Shift](https://arxiv.org/abs/2105.07107)
 <br>
@@ -426,18 +412,6 @@ University of Wisconsin-Madison
 > </details>
 
 
-**[ECML PKDD-2021]**
-[ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining](https://arxiv.org/abs/2006.15207)
-<br>
-**Authors:** Jiefeng Chen, Yixuan Li, Xi Wu, Yingyu Liang, Somesh Jha
-<br>
-**Institution:** University of Wisconsin-Madison;  Google
-> <details>
-> <summary>Using adversarial training to select auxiliary outlier data for a tight decision boundary between ID and OOD data.</summary>
-> <p style="text-align:left">
->By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and OOD data, which leads to robust OOD detection performance.
-> </p>
-> </details>
 
 
 
@@ -715,15 +689,6 @@ University of Wisconsin-Madison
 **Authors:** Mohammad Sabokrou, Mohammad Khalooei, Mahmood Fathy, Ehsan Adeli
 <br>
 **Institution:** Institute for Research in Fundamental Sciences; Amirkabir University of Technology; Stanford University
-
-
-**[NeurIPS-2018]**
-[A simple unified framework for detecting out-of-distribution samples and adversarial attacks](https://proceedings.neurips.cc/paper/2018/file/abdeb6f575ac5c6676b747bca8d09cc2-Paper.pdf)
-<br>
-**Authors:** Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin
-<br>
-**Institution:** Korea Advanced Institute of Science and Technology (KAIST); University of Michigan; Google Brain; AItrics
-
 
 
 
