@@ -1,9 +1,9 @@
 # Generalized Out-of-Distribution Detection: A Survey
-[![paper](https://img.shields.io/badge/Paper-arxiv-b31b1b)](https://arxiv.org)
+[![paper](https://img.shields.io/badge/Paper-arxiv-b31b1b)](https://arxiv.org/abs/2110.11334)
 &nbsp;
 [![recruit](https://img.shields.io/badge/OOD&#8211;Related%20Researchers-Recruiting&#33;-1463BD)](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Recruit.md)
 &nbsp;
-[![welcome](https://img.shields.io/badge/Issues&#44;%20Comments&#44;%20and%20Questions-are%20all%20welcomed&#33;-f39f37)]()
+[![welcome](https://img.shields.io/badge/Issues&#44;%20Comments&#44;%20and%20Questions-are%20all%20welcomed&#33;-f39f37)](https://github.com/Jingkang50/OODSurvey/issues)
 
 ![benchmark](assets/benchmark.jpg)
 
