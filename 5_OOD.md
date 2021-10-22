@@ -42,9 +42,9 @@
 <br>
 **Institution:** University of Illinois at Urbana-Champaign; University of Wisconsin-Madison
 > <details>
-> <summary> Using temperature scaling on softmax probabilities with small perturbations for robustness.</summary>
+> <summary> Using temperature scaling on softmax probabilities with small perturbations for reliability.</summary>
 > <p style="text-align:left">
-> Temperature scaling can calibrate the softmax probabilities so the model takes the calibrated maximum softmax probabilities as the indicator for OOD detection. A perturbation on each sample at test time can further exploit the model robustness in detecting ID samples. However, it requires an OOD validation set for hyperparameter tuning.
+> Temperature scaling has a strong smoothing effect that transforms the softmax score back to the logit space, which effectively distinguishes ID vs.OOD.  A perturbation on each sample at test time can further increase the separability between ID and OOD data. 
 > </p>
 > </details>
 
