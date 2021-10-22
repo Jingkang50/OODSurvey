@@ -117,5 +117,19 @@ By sorting out the methodologies for each sub-task, we hope that readers can eas
 By providing insights, challenges, and future directions, we hope that future works will pay more attention to the existing problems and explore more interactions across other tasks within or even outside the scope of generalized OOD detection.
 
 
+## 
+
+## Citation
+If you find our survey and repository useful for your research, please consider citing our paper:
+```bibtex
+@article{yang2021oodsurvey,
+  title={Generalized Out-of-Distribution Detection: A Survey},
+  author={Yang, Jingkang and Zhou, Kaiyang and Li, Yixuan and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2110.11334},
+  year={2021}
+}
+```
+
+
 ## Acknowledgements
 This repository is created and maintained by Jingkang Yang and Peng Wenxuan from NTU; Kunyuan Ding, Zixu Song, Pengyun Wang, Zitang Zhou, and Dejian Zou from BUPT.
