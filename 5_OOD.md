@@ -75,7 +75,7 @@
 <br>
 **Authors:** Yiyou Sun, Chuan Guo and Yixuan Li
 <br>
-**Institution:** University of Wisconsin-Madison
+**Institution:** University of Wisconsin-Madison, Facebook AI Research
 
 
 **[NeurIPS-2021]**
