@@ -1,7 +1,7 @@
 # Generalized Out-of-Distribution Detection: A Survey
 [![paper](https://img.shields.io/badge/Paper-arxiv-b31b1b)](https://arxiv.org)
 &nbsp;
-[![recruit](https://img.shields.io/badge/Recruiting-OOD&#8211;Related%20Researchers-1463BD)](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Recruit.md)
+[![recruit](https://img.shields.io/badge/OOD&#8211;Related%20Researchers-Recruiting&#33;-1463BD)](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Recruit.md)
 &nbsp;
 [![welcome](https://img.shields.io/badge/Issues&#44;%20Comments&#44;%20and%20Questions-are%20all%20welcomed&#33;-f39f37)]()
 
@@ -12,9 +12,9 @@
 This repository is with our survey paper:
 
 
-> **Title:** [Generalized Out-of-Distribution Detection: A Survey]() <br>
-> **Authors:** [Jingkang Yang<sup>1</sup>](https://jingkang50.github.io/), [Kaiyang Zhou<sup>1</sup>](https://kaiyangzhou.github.io/), [Yixuan Li<sup>2</sup>](http://pages.cs.wisc.edu/~sharonli/), [Ziwei Liu<sup>1</sup>]() <br>
-> **Institutions:** [<sup>1</sup>MMLab@NTU](), [<sup>2</sup>University of Wisconsin-Madison](https://www.cs.wisc.edu/).
+> **Title:** [Generalized Out-of-Distribution Detection: A Survey](https://arxiv.org/abs/2110.11334) <br>
+> **Authors:** [Jingkang Yang<sup>1</sup>](https://jingkang50.github.io/), [Kaiyang Zhou<sup>1</sup>](https://kaiyangzhou.github.io/), [Yixuan Li<sup>2</sup>](http://pages.cs.wisc.edu/~sharonli/), [Ziwei Liu<sup>1</sup>](https://github.com/liuziwei7) <br>
+> **Institutions:** [<sup>1</sup>MMLab@NTU](https://www.mmlab-ntu.com/), [<sup>2</sup>University of Wisconsin-Madison](https://www.cs.wisc.edu/).
 
 
 This survey comprehensively reviews the similar topics of **outlier detection (OD)**, **anomaly detection (AD)**, **novelty detection (ND)**, **open set recognition (OSR)**, and **out-of-distribution (OOD) detection**, extensively compares their commomality and differences, and eventually unifies them under a big umbrella of "generalized OOD detection" framework.
