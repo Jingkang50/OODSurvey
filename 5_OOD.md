@@ -392,7 +392,7 @@ University of Wisconsin-Madison
 <br>
 **Institution:** University of Wisconsin-Madison;  Google
 > <details>
-> <summary>Using adversarial training to select auxiliary outlier data for a tight decision boundary between ID and OOD data.</summary>
+> <summary>Using informative auxiliary outlier data to learn a tight decision boundary between ID and OOD data.</summary>
 > <p style="text-align:left">
 >By mining informative auxiliary OOD data, one can significantly improve OOD detection performance, and somewhat surprisingly, generalize to unseen adversarial attack. The key idea is to selectively utilize auxiliary outlier data for estimating a tight decision boundary between ID and OOD data, which leads to robust OOD detection performance.
 > </p>
