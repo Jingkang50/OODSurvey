@@ -217,13 +217,6 @@
 <a name="4.2"></a>
 ## 4.2 Distance-based Method
 
-**[ICCV-2021]**
-[OpenGAN: Open-Set Recognition via Open Data Generation](https://arxiv.org/abs/2104.02939).
-<br>
-**Authors:** Shu Kong and Deva Ramanan
-<br>
-**Institution:** Carnegie Mellon University, Argo AI
-
 **[TPAMI-2021]**
 [Adversarial Reciprocal Points Learning for Open Set Recognition](https://arxiv.org/abs/2103.00953).
 <br>
@@ -231,26 +224,12 @@
 <br>
 **Institution:** Peking University, Peng Cheng Laboratory
 
-**[ICML-2021]**
-[Learning Bounds for Open-Set Learning](https://arxiv.org/abs/2106.15792).
-<br>
-**Authors:** Zhen Fang, Jie Lu, Anjin Liu, Feng Liu and Guangquan Zhang
-<br>
-**Institution:** University of Technology Sydney
-
 **[ICCV-2021]**
 [Evidential Deep Learning for Open Set Action Recognition](https://arxiv.org/abs/2107.10161).
 <br>
 **Authors:** Wentao Bao, Qi Yu and Yu Kong
 <br>
 **Institution:** Rochester Institute of Technology, Rochester, NY 14623, USA
-
-**[CVPR-2021]**
-[Learning Placeholders for Open-Set Recognition](https://arxiv.org/abs/2103.15086).
-<br>
-**Authors:** Da-Wei Zhou, Han-Jia Ye and De-Chuan Zhan
-<br>
-**Institution:** Nanjing University
 
 **[TPAMI-2020]**
 [Convolutional Prototype Network for Open Set Recognition](https://ieeexplore.ieee.org/document/9296325).
