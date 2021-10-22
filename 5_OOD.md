@@ -1,8 +1,8 @@
 <a name="top"></a>
 # 5. OOD Detection
 - [5.1 Classfication-based Method](#5.1)
-  - [5.1.1 Confidence Calibration](#5.1.1)
-    - [5.1.1.1 Post-hoc Calibration](#5.1.1.1)
+  - [5.1.1 Output-based Methods](#5.1.1)
+    - [5.1.1.1 Post-hoc Methods](#5.1.1.1)
     - [5.1.1.2 Confidence Enhancement](#5.1.1.2)
     - [5.1.1.3 Outlier Explosure](#5.1.1.3)
   - [5.1.2 OOD Data Generation](#5.1.2)
@@ -17,9 +17,9 @@
 ## 5.1 Classfication-based Method
 
 <a name="5.1.1"></a>
-### 5.1.1 Confidence Calibration
+### 5.1.1 Output-based Methods
 <a name="5.1.1.1"></a>
-#### 5.1.1.1 Post-hoc Calibration
+#### 5.1.1.1 Post-hoc Methods
 
 **[ICLR-2017]**
 [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136).
