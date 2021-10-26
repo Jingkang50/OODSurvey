@@ -111,8 +111,10 @@ We believe the combination between OOD detection and the previous two fields can
 <a name="7.2.3.ref"></a>
 [1] Y. Wang, W. Liu, X. Ma, J. Bailey, H. Zha, L. Song, and S.-T. Xia, [“Iterative learning with open-set noisy labels,”](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Iterative_Learning_With_CVPR_2018_paper.pdf)
  in CVPR, 2018.
+ 
 [2] J. Li, C. Xiong, and S. C. Hoi, [“Mopro: Webly supervised learning with momentum prototypes,”](https://arxiv.org/pdf/2009.07995)
  ICLR, 2021.
+ 
 [3] Z.-F. Wu, T. Wei, J. Jiang, C. Mao, M. Tang, and Y.-F. Li, [“Ngc: A unified framework for learning with open-world noisy data,”](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_NGC_A_Unified_Framework_for_Learning_With_Open-World_Noisy_Data_ICCV_2021_paper.pdf) in ICCV, 2021.
 
 <a name="7.2.4"></a>
