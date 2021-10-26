@@ -24,15 +24,15 @@ Fortunately, recent OOD detection works [[4, 5]](#7.1.1.ref) have realized this 
 
 ---
 <a name="7.1.1.ref"></a>
-[1] W. Gan, “Language guided out-of-distribution detection,” 2021.
+[1] W. Gan, [“Language guided out-of-distribution detection,”](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-139.pdf) 2021.
 
-[2] F. Ahmed and A. Courville, “Detecting semantic anomalies,” in AAAI, 2020
+[2] F. Ahmed and A. Courville, [“Detecting semantic anomalies,”](https://ojs.aaai.org/index.php/AAAI/article/download/5712/5568) in AAAI, 2020
 
-[3] D. Hendrycks and K. Gimpel, “A baseline for detecting misclassified and out-of-distribution examples in neural networks,” in ICLR, 2017
+[3] D. Hendrycks and K. Gimpel, [“A baseline for detecting misclassified and out-of-distribution examples in neural networks,”](https://arxiv.org/pdf/1610.02136) in ICLR, 2017
 
-[4] R. Huang and Y. Li, “Mos: Towards scaling out-of-distribution detection for large semantic space,” in CVPR, 2021
+[4] R. Huang and Y. Li, [“Mos: Towards scaling out-of-distribution detection for large semantic space,”](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MOS_Towards_Scaling_Out-of-Distribution_Detection_for_Large_Semantic_Space_CVPR_2021_paper.pdf) in CVPR, 2021
 
-[5] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, “Semantically coherent out-of-distribution detection,” in ICCV, 2021
+[5] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, [“Semantically coherent out-of-distribution detection,”](http://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Semantically_Coherent_Out-of-Distribution_Detection_ICCV_2021_paper.pdf) in ICCV, 2021
 
 <a name="7.1.2"></a>
 ### 7.1.2 Outlier-free OOD Detection
@@ -40,9 +40,9 @@ The outlier exposure approach [[6]](#7.1.2.ref) imposes a strong assumption of t
 
 ---
 <a name="7.1.2.ref"></a>
-[6] D. Hendrycks, M. Mazeika, and T. Dietterich, “Deep anomaly detection with outlier exposure,” in ICLR, 2019
+[6] D. Hendrycks, M. Mazeika, and T. Dietterich, [“Deep anomaly detection with outlier exposure,”](https://arxiv.org/pdf/1812.04606) in ICLR, 2019
 
-[7] A. Torralba, R. Fergus, and W. T. Freeman, “80 million tiny images: A large data set for nonparametric object and scene recognition,” TPAMI, 2008.
+[7] A. Torralba, R. Fergus, and W. T. Freeman, [“80 million tiny images: A large data set for nonparametric object and scene recognition,”](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.73.4858&rep=rep1&type=pdf) TPAMI, 2008.
 
 <a name="7.1.3"></a>
 ### 7.1.3 Tradeoff Between Classification and OOD Detection
@@ -52,11 +52,11 @@ In OSR and OOD detection, it is important to achieve the dual objectives simulta
 
 ---
 <a name="7.1.3.ref"></a>
-[8] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, “Largescale long-tailed recognition in an open world,” in CVPR, 2019.
+[8] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, [“Largescale long-tailed recognition in an open world,”](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Large-Scale_Long-Tailed_Recognition_in_an_Open_World_CVPR_2019_paper.pdf)
+ in CVPR, 2019.
+[9] S. Vaze, K. Han, A. Vedaldi, and A. Zisserman, [“Open-set recognition: A good closed-set classifier is all you need,”](https://arxiv.org/pdf/2110.06207) arXiv preprint arXiv:2110.06207, 2021.
 
-[9] S. Vaze, K. Han, A. Vedaldi, and A. Zisserman, “Open-set recognition: A good closed-set classifier is all you need,” arXiv preprint arXiv:2110.06207, 2021.
-
-[10] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, “Semantically coherent out-of-distribution detection,” in ICCV, 2021. 
+[10] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, [“Semantically coherent out-of-distribution detection,”](http://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Semantically_Coherent_Out-of-Distribution_Detection_ICCV_2021_paper.pdf) in ICCV, 2021. 
 
 <a name="7.1.4"></a>
 ### 7.1.4 Real-world Benchmarks and Evaluations
@@ -66,9 +66,9 @@ Therefore, we encourage future research to evaluate on ImageNet-based OOD detect
 
 ---
 <a name="7.1.4.ref"></a>
-[11] R. Huang and Y. Li, “Mos: Towards scaling out-of-distribution detection for large semantic space,” in CVPR, 2021.
+[11] R. Huang and Y. Li, [“Mos: Towards scaling out-of-distribution detection for large semantic space,”](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_MOS_Towards_Scaling_Out-of-Distribution_Detection_for_Large_Semantic_Space_CVPR_2021_paper.pdf) in CVPR, 2021.
 
-[12] S. Vaze, K. Han, A. Vedaldi, and A. Zisserman, “Open-set recognition: A good closed-set classifier is all you need,” arXiv preprint arXiv:2110.06207, 2021.
+[12] S. Vaze, K. Han, A. Vedaldi, and A. Zisserman, [“Open-set recognition: A good closed-set classifier is all you need,”](https://arxiv.org/pdf/2110.06207) arXiv preprint arXiv:2110.06207, 2021.
 
 
 <a name="7.2"></a>
@@ -86,20 +86,20 @@ Looking ahead, we envision great research opportunities on how OOD detection and
 
 ---
 <a name="7.2.2.ref"></a>
-[1] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, “Semantically coherent out-of-distribution detection,” in ICCV, 2021. 
+[1] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, [“Semantically coherent out-of-distribution detection,”](http://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Semantically_Coherent_Out-of-Distribution_Detection_ICCV_2021_paper.pdf)  in ICCV, 2021.
 
-[2] Y. Ming, H. Yin, and Y. Li, “On the impact of spurious correlation for out-of-distribution detection,” arXiv preprint arXiv:2109.05642, 2021.
+[2] Y. Ming, H. Yin, and Y. Li, [“On the impact of spurious correlation for out-of-distribution detection,”](https://arxiv.org/pdf/2109.05642) arXiv preprint arXiv:2109.05642, 2021.
 
-[3] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, “Large scale long-tailed recognition in an open world,” in CVPR, 2019.
+[3] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, [“Large scale long-tailed recognition in an open world,”](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Large-Scale_Long-Tailed_Recognition_in_an_Open_World_CVPR_2019_paper.pdf) in CVPR, 2019.
 
-[4] Z. Liu, Z. Miao, X. Pan, X. Zhan, D. Lin, S. X. Yu, and B. Gong, “Open compound domain adaptation,” in CVPR, 2020.
+[4] Z. Liu, Z. Miao, X. Pan, X. Zhan, D. Lin, S. X. Yu, and B. Gong, [“Open compound domain adaptation,”](http://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Open_Compound_Domain_Adaptation_CVPR_2020_paper.pdf) in CVPR, 2020.
 
-[5] P. Panareda Busto and J. Gall, “Open set domain adaptation,” in ICCV, 2017.
+[5] P. Panareda Busto and J. Gall, [“Open set domain adaptation,”](http://openaccess.thecvf.com/content_ICCV_2017/papers/Busto_Open_Set_Domain_ICCV_2017_paper.pdf) in ICCV, 2017.
 
-[6] Y. Shu, Z. Cao, C. Wang, J. Wang, and M. Long, “Open domain generalization with domain-augmented meta-learning,” in CVPR, 2021
+[6] Y. Shu, Z. Cao, C. Wang, J. Wang, and M. Long, [“Open domain generalization with domain-augmented meta-learning,”](https://openaccess.thecvf.com/content/CVPR2021/papers/Shu_Open_Domain_Generalization_with_Domain-Augmented_Meta-Learning_CVPR_2021_paper.pdf) in CVPR, 2021
 
-[7] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, “Largescale long-tailed recognition in an open world,” in CVPR, 2019.
-
+[7] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, [“Largescale long-tailed recognition in an open world,”](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Large-Scale_Long-Tailed_Recognition_in_an_Open_World_CVPR_2019_paper.pdf)
+ in CVPR, 2019.
 <a name="7.2.3"></a>
 ### 7.2.3 OOD Detection & Open-Set Noisy Labels
 Existing methods of learning from open-set noisy labels focus on suppressing the negative effects of noise [[1, 2]](#7.2.3.ref). However,
@@ -109,11 +109,11 @@ We believe the combination between OOD detection and the previous two fields can
 
 ---
 <a name="7.2.3.ref"></a>
-[1] Y. Wang, W. Liu, X. Ma, J. Bailey, H. Zha, L. Song, and S.-T. Xia, “Iterative learning with open-set noisy labels,” in CVPR, 2018.
-
-[2] J. Li, C. Xiong, and S. C. Hoi, “Mopro: Webly supervised learning with momentum prototypes,” ICLR, 2021.
-
-[3] Z.-F. Wu, T. Wei, J. Jiang, C. Mao, M. Tang, and Y.-F. Li, “Ngc: A unified framework for learning with open-world noisy data,” in ICCV, 2021.
+[1] Y. Wang, W. Liu, X. Ma, J. Bailey, H. Zha, L. Song, and S.-T. Xia, [“Iterative learning with open-set noisy labels,”](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Iterative_Learning_With_CVPR_2018_paper.pdf)
+ in CVPR, 2018.
+[2] J. Li, C. Xiong, and S. C. Hoi, [“Mopro: Webly supervised learning with momentum prototypes,”](https://arxiv.org/pdf/2009.07995)
+ ICLR, 2021.
+[3] Z.-F. Wu, T. Wei, J. Jiang, C. Mao, M. Tang, and Y.-F. Li, [“Ngc: A unified framework for learning with open-world noisy data,”](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_NGC_A_Unified_Framework_for_Learning_With_Open-World_Noisy_Data_ICCV_2021_paper.pdf) in ICCV, 2021.
 
 <a name="7.2.4"></a>
 ### 7.2.4 Theoretical Analysis
