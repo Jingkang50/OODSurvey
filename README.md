@@ -1,4 +1,7 @@
 # Generalized Out-of-Distribution Detection: A Survey
+| :exclamation:  We are building an open-source codebase to benchmark representative AD/ND/OSR/OOD methods to further unify the field. We are HIRING 2-5 full-time researchers/interns for this project. The position is affiliated with SenseTime Research Hong Kong. Please [email me](mailto:yangjingkang001@gmail.com) and check [here](https://github.com/Jingkang50/OODSurvey/blob/main/Recruit.md) if you want to join us on this impactful project! |
+|-----------------------------------------|
+
 [![paper](https://img.shields.io/badge/Paper-arxiv-b31b1b)](https://arxiv.org/abs/2110.11334)
 &nbsp;
 [![recruit](https://img.shields.io/badge/OOD&#8211;Related%20Researchers-Recruiting&#33;-1463BD)](https://github.com/Jingkang50/OOD_Detection_Survey/blob/main/Recruit.md)
