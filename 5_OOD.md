@@ -69,6 +69,7 @@
 <br>
 **Institution:** Dalhousie University, Halifax
 
+
 **[CVPR-2021]**
 [MOOD: Multi-level Out-of-distribution Detection](https://arxiv.org/abs/2104.14726).
 <br>
@@ -83,7 +84,7 @@
 > </details>
 
 **[NeurIPS-2021]**
-[React: Out-of-distribution detection with rectified activations](http://pages.cs.wisc.edu/~sharonli/).
+[ReAct: Out-of-distribution detection with rectified activations](http://pages.cs.wisc.edu/~sharonli/).
 <br>
 **Authors:** Yiyou Sun, Chuan Guo and Yixuan Li
 <br>
@@ -107,6 +108,12 @@
 **Institution:** Carnegie Mellon University; University of California, San Diego; Department of Computer Sciences
 University of Wisconsin-Madison
 
+**[arXiv-2021]**
+[On the Effectiveness of Sparsification for Detecting the Deep Unknowns](https://arxiv.org/abs/2111.09805).
+<br>
+**Authors:** Yiyou Sun, Yixuan Li
+<br>
+**Institution:** University of Wisconsin-Madison
 
 
 <br>
@@ -410,8 +417,6 @@ University of Wisconsin-Madison
 > This work demonstrates the efficacy of using an extra abstention (or rejection class) in combination with outlier training data for effective OoD detection.
 > </p>
 > </details>
-
-
 
 
 
