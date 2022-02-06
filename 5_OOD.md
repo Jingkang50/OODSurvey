@@ -463,6 +463,18 @@ University of Wisconsin-Madison
 **Institution:** Indian Institute of Science, Bangalore; Inception Institute of Artificial Intelligence, UAE; Mercedes-Benz R&D India, Bangalore
 
 
+**[ICLR-2022]**
+[VOS: Learning What You Don't Know By Virtual Outlier Synthesis](https://arxiv.org/abs/2202.01197)
+<br>
+**Authors:** Xuefeng Du, Zhaoning Wang, Mu Cai, Yixuan Li
+<br>
+**Institution:** University of Wisconsin - Madison
+> <details>
+> <summary>A novel framework for OOD detection by adaptively synthesizing virtual outliers that can meaningfully regularize the model's decision boundary during training. </summary>
+> <p style="text-align:left">
+> VOS samples virtual outliers from the low-likelihood region of the class-conditional distribution estimated in the feature space. VOS achieves strong performance on both object detection and image classification models.
+> </p>
+> </details>
 
 
 <br>
@@ -477,7 +489,7 @@ University of Wisconsin-Madison
 **[ICLR-2018]**
 [Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks](https://github.com/facebookresearch/odin).
 <br>
-**Authors:** Shiyu Liang, Yixuan Li, R.rikant
+**Authors:** Shiyu Liang, Yixuan Li, R. Srikant
 <br>
 **Institution:** University of Illinois at Urbana-Champaign; University of Wisconsin-Madison
 > <details>
@@ -596,7 +608,7 @@ University of Wisconsin-Madison
 **[arXiv-2020]**
 [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf)
 <br>
-**Authors:** Dan Hendrycks, Xiaoyuan Liu1, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, Dawn Song
+**Authors:** Dan Hendrycks, Xiaoyuan Liu, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, Dawn Song
 <br>
 **Institution:** UC Berkeley; Shanghai Jiao Tong University; University of Chicago
 
