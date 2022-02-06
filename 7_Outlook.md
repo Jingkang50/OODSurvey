@@ -88,7 +88,7 @@ Looking ahead, we envision great research opportunities on how OOD detection and
 <a name="7.2.2.ref"></a>
 [1] J. Yang, H. Wang, L. Feng, X. Yan, H. Zheng, W. Zhang, and Z. Liu, [“Semantically coherent out-of-distribution detection,”](http://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Semantically_Coherent_Out-of-Distribution_Detection_ICCV_2021_paper.pdf)  in ICCV, 2021.
 
-[2] Y. Ming, H. Yin, and Y. Li, [“On the impact of spurious correlation for out-of-distribution detection,”](https://arxiv.org/pdf/2109.05642) arXiv preprint arXiv:2109.05642, 2021.
+[2] Y. Ming, H. Yin, and Y. Li, [“On the impact of spurious correlation for out-of-distribution detection,”](https://arxiv.org/pdf/2109.05642) in AAAI, 2022
 
 [3] Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, [“Large scale long-tailed recognition in an open world,”](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Large-Scale_Long-Tailed_Recognition_in_an_Open_World_CVPR_2019_paper.pdf) in CVPR, 2019.
 
@@ -119,5 +119,9 @@ We believe the combination between OOD detection and the previous two fields can
 
 <a name="7.2.4"></a>
 ### 7.2.4 Theoretical Analysis
-While most of the existing OOD detection works focus on developing effective approaches to obtain better empirical performance, the theoretical analysis remains largely untapped. We hope future research can also contribute theoretical analyses and provide in-depth insights that help guide algorithmic development with rigorous guarantees.
+While most of the existing OOD detection works focus on developing effective approaches to obtain better empirical performance, the theoretical analysis remains largely underexplored. We hope future research can also contribute theoretical analyses and provide in-depth insights that help guide algorithmic development with rigorous guarantees. 
+
+[1] Z. Fang, J. Lu, A. Liu, F. Liu, G. Zhang, [“Learning Bounds for Open-Set Learning”](https://arxiv.org/abs/2106.15792) in ICML, 2021.
+
+[2] Peyman Morteza and Yixuan Li, [“Provable Guarantees for Understanding Out-of-distribution Detection,”](https://arxiv.org/abs/2112.00787) in AAAI, 2022
 
