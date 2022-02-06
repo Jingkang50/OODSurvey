@@ -789,16 +789,6 @@ University of Wisconsin-Madison
 
 
 
-**[NeurIPS-2019]**
-[Likelihood ratios for out-of-distribution detection](https://arxiv.org/pdf/1906.02845.pdf)
-<br>
-**Authors:** Jie Ren, Peter J. Liu, Emily Fertig, Jasper Snoek, Ryan Poplin, Mark A. DePristo, Joshua V. Dillon, Balaji Lakshminarayanan
-<br>
-**Institution:** Google Research; DeepMind
-
-
-
-
 **[ACCV-2020]**
 [Hyperparameter-free out-of-distribution detection using cosine similarity](https://openaccess.thecvf.com/content/ACCV2020/papers/Techapanurak_Hyperparameter-Free_Out-of-Distribution_Detection_Using_Cosine_Similarity_ACCV_2020_paper.pdf)
 <br>
