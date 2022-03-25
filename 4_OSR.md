@@ -162,6 +162,14 @@
 **Authors:** Patrick Schlachter, Yiwen Liao, Bin Yang
 <br>
 **Institution:** University of Stuttgart
+
+
+**[ICCV-2021]**
+[OpenGAN: Open-Set Recognition via Open Data Generation](https://openaccess.thecvf.com/content/ICCV2021/papers/Kong_OpenGAN_Open-Set_Recognition_via_Open_Data_Generation_ICCV_2021_paper.pdf)
+<br>
+**Authors:** Shu Kong, Deva Ramanan
+<br>
+**Institution:** Carnegie Mellon University; Argo AI
  
 
 <a name="4.1.4"></a>
