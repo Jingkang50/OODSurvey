@@ -115,6 +115,12 @@ University of Wisconsin-Madison
 <br>
 **Institution:** University of Wisconsin-Madison
 
+**[NeurIPS-2022]**
+[RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection](https://arxiv.org/abs/2209.08590).
+<br>
+**Authors:** Yue Song, Nicu Sebe, Wei Wang
+<br>
+**Institution:** University of Trento
 
 <br>
 
